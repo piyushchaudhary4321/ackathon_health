@@ -1,0 +1,432 @@
+{
+    "Instruction": "This stage is to understand if the User’s Hobbies have any Physical risks. If the Hobbies given by the user is marked in the STP column as “No”, ask for more details as mentioned in the other columns for the same row.",
+    "Data": [
+        {
+            "Category": "Have you tried any of these adventure sports in the last 5 years?",
+            "Sub category": "Which of these <aviation> activities have you done?",
+            "Type": "How would you describe your involvement?",
+            "Options": "Could you be more specific about your level of involvement? ",
+            "Sub options": "Provide more details"
+        },
+        {
+            "Category": "Aviation",
+            "Sub category": "Private flying - helicopters or planes",
+            "Type": "For fun/leisure\nAs an instructor/trainer\nParticipating in competitions\nTesting equipment prototypes",
+            "Options": "Less than 25 hours per year\n25-100 hours per year\n101-200 hours per year\nMore than 200 hours per year",
+            "Sub options": null
+        },
+        {
+            "Category": null,
+            "Sub category": "Autogyros",
+            "Type": "For fun/leisure\nAs an instructor/trainer\nParticipating in competitions\nTesting equipment prototypes",
+            "Options": null,
+            "Sub options": null
+        },
+        {
+            "Category": null,
+            "Sub category": "Ballooning",
+            "Type": "For fun/leisure\nAs an instructor/trainer\nParticipating in competitions\nTesting equipment prototypes",
+            "Options": null,
+            "Sub options": null
+        },
+        {
+            "Category": null,
+            "Sub category": "Gliding",
+            "Type": "For fun/leisure\nAs an instructor/trainer\nParticipating in competitions\nTesting equipment prototypes",
+            "Options": "Less than 50 hours per year\n50-99 hours per year\n100-150 hours per year\nMore than 150 hours per year",
+            "Sub options": null
+        },
+        {
+            "Category": null,
+            "Sub category": "Hang - gliding",
+            "Type": "For fun/leisure\nAs an instructor/trainer\nParticipating in competitions\nTesting equipment prototypes",
+            "Options": "Less than 25 flights per year\n25-50 flights per year     \nMore than 50 flights per year",
+            "Sub options": null
+        },
+        {
+            "Category": null,
+            "Sub category": "Heli-Skiing",
+            "Type": "For fun/leisure\nAs an instructor/trainer\nParticipating in competitions\nTesting equipment prototypes",
+            "Options": "Less than 50 hours per year\n50-99 hours per year\n100-150 hours per year\nMore than 150 hours per year",
+            "Sub options": null
+        },
+        {
+            "Category": null,
+            "Sub category": "Microlights",
+            "Type": "For fun/leisure\nAs an instructor/trainer\nParticipating in competitions\nTesting equipment prototypes",
+            "Options": null,
+            "Sub options": null
+        },
+        {
+            "Category": null,
+            "Sub category": "Parachuting",
+            "Type": "For fun/leisure\nAs an instructor/trainer\nParticipating in competitions\nTesting equipment prototypes",
+            "Options": "Less than 25 hours per year        \n25-75 hours per year           \n76-125 hours per year           \nMore than 125 hours per year        ",
+            "Sub options": null
+        },
+        {
+            "Category": null,
+            "Sub category": "Paragliding",
+            "Type": "For fun/leisure\nAs an instructor/trainer\nParticipating in competitions\nTesting equipment prototypes",
+            "Options": "Less than 25 flights per year\n25-50 flights per year     \nMore than 50 flights per year",
+            "Sub options": null
+        },
+        {
+            "Category": null,
+            "Sub category": "Paramotor",
+            "Type": "For fun/leisure\nAs an instructor/trainer\nParticipating in competitions\nTesting equipment prototypes",
+            "Options": "Less than 50 hours per year\n50-99 hours per year\n100-150 hours per year\nMore than 150 hours per year",
+            "Sub options": null
+        },
+        {
+            "Category": null,
+            "Sub category": "Skysurfing",
+            "Type": "For fun/leisure\nAs an instructor/trainer\nParticipating in competitions\nTesting equipment prototypes",
+            "Options": null,
+            "Sub options": null
+        },
+        {
+            "Category": "Combat sports",
+            "Sub category": "Boxing",
+            "Type": "For fun/leisure\nAs an instructor/trainer\nParticipating in competitions\nTesting equipment prototypes",
+            "Options": null,
+            "Sub options": null
+        },
+        {
+            "Category": null,
+            "Sub category": "Martial Arts",
+            "Type": "For fun/leisure\nAs an instructor/trainer\nParticipating in competitions\nTesting equipment prototypes",
+            "Options": "Provide the details of your participation",
+            "Sub options": null
+        },
+        {
+            "Category": "Diving",
+            "Sub category": "Apnoe Diving",
+            "Type": "For fun/leisure\nAs an instructor/trainer\nParticipating in competitions\nTesting equipment prototypes",
+            "Options": null,
+            "Sub options": null
+        },
+        {
+            "Category": null,
+            "Sub category": "High diving (water)",
+            "Type": "For fun/leisure\nAs an instructor/trainer\nParticipating in competitions\nTesting equipment prototypes",
+            "Options": null,
+            "Sub options": null
+        },
+        {
+            "Category": null,
+            "Sub category": "Scuba Diving",
+            "Type": "For fun/leisure\nAs an instructor/trainer\nParticipating in competitions\nTesting equipment prototypes",
+            "Options": "\n\nOnce on a holiday\nDiving in depths up to 40m or 130ft\nTechnical diving with depths between 41-75m or 131-246ft \nDiving in depths greater than 75m or 246ft\n",
+            "Sub options": null
+        },
+        {
+            "Category": null,
+            "Sub category": "Snorkelling",
+            "Type": "For fun/leisure\nAs an instructor/trainer\nParticipating in competitions\nTesting equipment prototypes",
+            "Options": null,
+            "Sub options": null
+        },
+        {
+            "Category": "Motor sports",
+            "Sub category": "Car Circuit Racing",
+            "Type": "For fun/leisure\nAs an instructor/trainer\nParticipating in competitions\nTesting equipment prototypes",
+            "Options": "To be asked for option 3\n\n\nInternational competition\nNational competition\nLocal competition",
+            "Sub options": null
+        },
+        {
+            "Category": null,
+            "Sub category": "Car Racing - Various",
+            "Type": "For fun/leisure\nAs an instructor/trainer\nParticipating in competitions\nTesting equipment prototypes",
+            "Options": null,
+            "Sub options": null
+        },
+        {
+            "Category": null,
+            "Sub category": "Drag Racing",
+            "Type": "For fun/leisure\nAs an instructor/trainer\nParticipating in competitions\nTesting equipment prototypes",
+            "Options": null,
+            "Sub options": null
+        },
+        {
+            "Category": null,
+            "Sub category": "Motorcycle Circuit Racing",
+            "Type": "For fun/leisure\nAs an instructor/trainer\nParticipating in competitions\nTesting equipment prototypes",
+            "Options": null,
+            "Sub options": null
+        },
+        {
+            "Category": null,
+            "Sub category": "Motorcycle Racing - Various",
+            "Type": "For fun/leisure\nAs an instructor/trainer\nParticipating in competitions\nTesting equipment prototypes",
+            "Options": null,
+            "Sub options": null
+        },
+        {
+            "Category": null,
+            "Sub category": "Overland",
+            "Type": "For fun/leisure\nAs an instructor/trainer\nParticipating in competitions\nTesting equipment prototypes",
+            "Options": null,
+            "Sub options": null
+        },
+        {
+            "Category": "Water sports",
+            "Sub category": "Apnoe Diving",
+            "Type": "For fun/leisure\nAs an instructor/trainer\nParticipating in competitions\nTesting equipment prototypes",
+            "Options": null,
+            "Sub options": null
+        },
+        {
+            "Category": null,
+            "Sub category": "Barefoot-water-skiing",
+            "Type": "For fun/leisure\nAs an instructor/trainer\nParticipating in competitions\nTesting equipment prototypes",
+            "Options": null,
+            "Sub options": null
+        },
+        {
+            "Category": null,
+            "Sub category": "Canoeing and Kayaking",
+            "Type": "Pleasure - Amateur or Professional\nTrainer\nCompetition\nTesting equipments or prototypes",
+            "Options": null,
+            "Sub options": null
+        },
+        {
+            "Category": null,
+            "Sub category": "Canoe-Polo",
+            "Type": "Pleasure - Amateur or Professional\nTrainer\nCompetition\nTesting equipments or prototypes",
+            "Options": null,
+            "Sub options": null
+        },
+        {
+            "Category": null,
+            "Sub category": "High diving (water)",
+            "Type": "For fun/leisure\nAs an instructor/trainer\nParticipating in competitions\nTesting equipment prototypes",
+            "Options": null,
+            "Sub options": null
+        },
+        {
+            "Category": null,
+            "Sub category": "Hovercraft Racing",
+            "Type": "For fun/leisure\nAs an instructor/trainer\nParticipating in competitions\nTesting equipment prototypes",
+            "Options": null,
+            "Sub options": null
+        },
+        {
+            "Category": null,
+            "Sub category": "Hydrospeed",
+            "Type": "For fun/leisure\nAs an instructor/trainer\nParticipating in competitions\nTesting equipment prototypes",
+            "Options": null,
+            "Sub options": null
+        },
+        {
+            "Category": null,
+            "Sub category": "Jet Skiing",
+            "Type": "For fun/leisure\nAs an instructor/trainer\nParticipating in competitions\nTesting equipment prototypes",
+            "Options": null,
+            "Sub options": null
+        },
+        {
+            "Category": null,
+            "Sub category": "Powerboat Racing",
+            "Type": "For fun/leisure\nAs an instructor/trainer\nParticipating in competitions\nTesting equipment prototypes",
+            "Options": null,
+            "Sub options": null
+        },
+        {
+            "Category": null,
+            "Sub category": "Rafting (Wild Water)",
+            "Type": "For fun/leisure\nAs an instructor/trainer\nParticipating in competitions\nTesting equipment prototypes",
+            "Options": "To be asked for option 3\n\nIn Europe\nOutside Europe",
+            "Sub options": null
+        },
+        {
+            "Category": null,
+            "Sub category": "Sea Kayaking",
+            "Type": "For fun/leisure\nAs an instructor/trainer\nParticipating in competitions\nTesting equipment prototypes",
+            "Options": null,
+            "Sub options": null
+        },
+        {
+            "Category": null,
+            "Sub category": "Surfing",
+            "Type": "For fun/leisure\nAs an instructor/trainer\nParticipating in competitions\nTesting equipment prototypes",
+            "Options": null,
+            "Sub options": null
+        },
+        {
+            "Category": null,
+            "Sub category": "Swimming",
+            "Type": "For fun/leisure\nAs an instructor/trainer\nParticipating in competitions\nTesting equipment prototypes",
+            "Options": null,
+            "Sub options": null
+        },
+        {
+            "Category": null,
+            "Sub category": "Underwater-rugby",
+            "Type": "For fun/leisure\nAs an instructor/trainer\nParticipating in competitions\nTesting equipment prototypes",
+            "Options": null,
+            "Sub options": null
+        },
+        {
+            "Category": null,
+            "Sub category": "Wakeboarding",
+            "Type": "For fun/leisure\nAs an instructor/trainer\nParticipating in competitions\nTesting equipment prototypes",
+            "Options": null,
+            "Sub options": null
+        },
+        {
+            "Category": null,
+            "Sub category": "Water Skiing",
+            "Type": "For fun/leisure\nAs an instructor/trainer\nParticipating in competitions\nTesting equipment prototypes",
+            "Options": null,
+            "Sub options": null
+        },
+        {
+            "Category": null,
+            "Sub category": "White Water Rafting",
+            "Type": "For fun/leisure\nAs an instructor/trainer\nParticipating in competitions\nTesting equipment prototypes",
+            "Options": null,
+            "Sub options": null
+        },
+        {
+            "Category": null,
+            "Sub category": "Wind Surfing / Board Sailing",
+            "Type": "For fun/leisure\nAs an instructor/trainer\nParticipating in competitions\nTesting equipment prototypes",
+            "Options": null,
+            "Sub options": null
+        },
+        {
+            "Category": null,
+            "Sub category": "Yachting / Sailing - Pleasure",
+            "Type": "For fun/leisure\nAs an instructor/trainer\nParticipating in competitions\nTesting equipment prototypes",
+            "Options": null,
+            "Sub options": null
+        },
+        {
+            "Category": null,
+            "Sub category": "Yachting / Sailing - Racing",
+            "Type": "For fun/leisure\nAs an instructor/trainer\nParticipating in competitions\nTesting equipment prototypes",
+            "Options": null,
+            "Sub options": null
+        },
+        {
+            "Category": "Winter sports",
+            "Sub category": "Bobsleigh",
+            "Type": "For fun/leisure\nAs an instructor/trainer\nParticipating in competitions\nTesting equipment prototypes",
+            "Options": null,
+            "Sub options": null
+        },
+        {
+            "Category": null,
+            "Sub category": "Figure Skating",
+            "Type": "For fun/leisure\nAs an instructor/trainer\nParticipating in competitions\nTesting equipment prototypes",
+            "Options": null,
+            "Sub options": null
+        },
+        {
+            "Category": null,
+            "Sub category": "Heli-Skiing",
+            "Type": "For fun/leisure\nAs an instructor/trainer\nParticipating in competitions\nTesting equipment prototypes",
+            "Options": null,
+            "Sub options": null
+        },
+        {
+            "Category": null,
+            "Sub category": "Ice Hockey",
+            "Type": "For fun/leisure\nAs an instructor/trainer\nParticipating in competitions\nTesting equipment prototypes",
+            "Options": null,
+            "Sub options": null
+        },
+        {
+            "Category": null,
+            "Sub category": "Ice Sailing",
+            "Type": "For fun/leisure\nAs an instructor/trainer\nParticipating in competitions\nTesting equipment prototypes",
+            "Options": null,
+            "Sub options": null
+        },
+        {
+            "Category": null,
+            "Sub category": "Ice Skating",
+            "Type": "For fun/leisure\nAs an instructor/trainer\nParticipating in competitions\nTesting equipment prototypes",
+            "Options": null,
+            "Sub options": null
+        },
+        {
+            "Category": null,
+            "Sub category": "Luge Tobogganing",
+            "Type": "For fun/leisure\nAs an instructor/trainer\nParticipating in competitions\nTesting equipment prototypes",
+            "Options": null,
+            "Sub options": null
+        },
+        {
+            "Category": null,
+            "Sub category": "Skeleton",
+            "Type": "For fun/leisure\nAs an instructor/trainer\nParticipating in competitions\nTesting equipment prototypes",
+            "Options": null,
+            "Sub options": null
+        },
+        {
+            "Category": null,
+            "Sub category": "Ski Bob / Snow Biking",
+            "Type": "For fun/leisure\nAs an instructor/trainer\nParticipating in competitions\nTesting equipment prototypes",
+            "Options": null,
+            "Sub options": null
+        },
+        {
+            "Category": null,
+            "Sub category": "Ski joering",
+            "Type": "For fun/leisure\nAs an instructor/trainer\nParticipating in competitions\nTesting equipment prototypes",
+            "Options": null,
+            "Sub options": null
+        },
+        {
+            "Category": null,
+            "Sub category": "Skiing / Snowboarding",
+            "Type": "For fun/leisure\nAs an instructor/trainer\nParticipating in competitions\nTesting equipment prototypes",
+            "Options": "To be asked for option 3\n\nInternational competition\nNational competition\nLocal competition",
+            "Sub options": null
+        },
+        {
+            "Category": null,
+            "Sub category": "Ski-jump",
+            "Type": "For fun/leisure\nAs an instructor/trainer\nParticipating in competitions\nTesting equipment prototypes",
+            "Options": null,
+            "Sub options": null
+        },
+        {
+            "Category": null,
+            "Sub category": "Snow Golfing",
+            "Type": "For fun/leisure\nAs an instructor/trainer\nParticipating in competitions\nTesting equipment prototypes",
+            "Options": null,
+            "Sub options": null
+        },
+        {
+            "Category": null,
+            "Sub category": "Snowmobiles",
+            "Type": "For fun/leisure\nAs an instructor/trainer\nParticipating in competitions\nTesting equipment prototypes",
+            "Options": null,
+            "Sub options": null
+        },
+        {
+            "Category": null,
+            "Sub category": "Snowrafting",
+            "Type": "For fun/leisure\nAs an instructor/trainer\nParticipating in competitions\nTesting equipment prototypes",
+            "Options": null,
+            "Sub options": null
+        },
+        {
+            "Category": null,
+            "Sub category": "Speed Skating",
+            "Type": "For fun/leisure\nAs an instructor/trainer\nParticipating in competitions\nTesting equipment prototypes",
+            "Options": null,
+            "Sub options": null
+        },
+        {
+            "Category": "Other sports",
+            "Sub category": "Any other sports (free text box)",
+            "Type": "For fun/leisure\nAs an instructor/trainer\nParticipating in competitions\nTesting equipment prototypes",
+            "Options": "Provide the details of your participation",
+            "Sub options": null
+        }
+    ]
+}

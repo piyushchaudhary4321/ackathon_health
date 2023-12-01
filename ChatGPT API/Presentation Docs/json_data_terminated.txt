@@ -1,0 +1,9 @@
+[
+  {
+    "user_name": "Piyush Chaudhary",
+    "age": 27,
+    "gender": "Male",
+    "dependents": "Parents",
+    "income": 0
+  }
+]

@@ -1,0 +1,153 @@
+{
+    "Instruction": "This stage involves collection of details of the user's health status and history of any conditions. Collecting the medical risk details of the customer as per the questions mentioned in the “Questions” column. Use the data in the “Values” column to inform the user about respond in these units. Once most of the information is collected, check if there are any major or serious risks identified which can lead to Rejection of a proposal. If Major risk are found Reject the policy.",
+    "Data": [
+        {
+            "Question": "Name",
+            "Values": null
+        },
+        {
+            "Question": "Gender",
+            "Values": null
+        },
+        {
+            "Question": "DoB",
+            "Values": null
+        },
+        {
+            "Question": "Phone number",
+            "Values": null
+        },
+        {
+            "Question": "email id",
+            "Values": null
+        },
+        {
+            "Question": "Smoker status",
+            "Values": null
+        },
+        {
+            "Question": "Height",
+            "Values": "Feet\nInches"
+        },
+        {
+            "Question": "Weight",
+            "Values": "Kgs"
+        },
+        {
+            "Question": "Do you consume alcohol",
+            "Values": "Yes/No"
+        },
+        {
+            "Question": "How often do you drink?",
+            "Values": "Everyday\nA few times a week\nA few times a month\nA few times a year"
+        },
+        {
+            "Question": "How many glasses do you drink in a week?",
+            "Values": "1-5\n6-10\n11-15\n> 15"
+        },
+        {
+            "Question": "In what form do you consume tobacco?",
+            "Values": "Cigarettes/Cigar\nBidi\nGutkha/Pan masala"
+        },
+        {
+            "Question": "How often do you consume tobacco",
+            "Values": "Everyday\nA few times a week\nA few times a month\nA few times a year"
+        },
+        {
+            "Question": "How many cigarette/cigar/bidi packs do you smoke in a day? (1 pack = 20 cigarettes/bidi)",
+            "Values": "1-5\n6-10\n11-15\n> 15"
+        },
+        {
+            "Question": "How many Gutkha/pan masala packets do you consume? ",
+            "Values": "1-5\n6-10\n11-15\n> 15"
+        },
+        {
+            "Question": "Has a doctor ever asked you to decrease or discontinue your alcohol or tobacco consumption?",
+            "Values": "Yes\nNo"
+        },
+        {
+            "Question": "Reason",
+            "Values": null
+        },
+        {
+            "Question": "Have you ever taken any narcotics? e.g. Cocaine, LSD, etc.",
+            "Values": "Yes\nNo"
+        },
+        {
+            "Question": "Have you lost or gained more than 5 kgs in the last year?",
+            "Values": "Yes\nNo"
+        },
+        {
+            "Question": "Has more than one member in your immediate or extended family passed away before the age of 60 years due to any of the following conditions?\n\nheart attack\nstroke\ncancer\ndiabetes\nblood pressure\nkidney disease\nany hereditary disorder",
+            "Values": "Yes\nNo"
+        },
+        {
+            "Question": "Have you or your spouse ever tested positive or treated for any sexually transmitted diseases like HIV/AIDS, Hepatitis B or C?",
+            "Values": "Yes\nNo"
+        },
+        {
+            "Question": "Are you awaiting results for any such tests?",
+            "Values": "Yes\nNo"
+        },
+        {
+            "Question": "In the past 5 years, have you been advised to undergo any of the following:\n\nBlood tests \nECG \nSurgery\n\n(Select \u2018No' if this was done for pre-employment or a routine check-up)",
+            "Values": "Yes\nNo"
+        },
+        {
+            "Question": "Are you planning to undergo treatment or surgery of any kind in the near future?",
+            "Values": "Yes\nNo"
+        },
+        {
+            "Question": "Have you ever been hospitalised for COVID related illness?",
+            "Values": "Yes\nNo"
+        },
+        {
+            "Question": "Are you currently pregnant?",
+            "Values": "Yes\nNo"
+        },
+        {
+            "Question": "No. of weeks in pregnancy",
+            "Values": null
+        },
+        {
+            "Question": "Are you currently experiencing any pregnancy-related complications or undergoing investigation or treatment for any gynaecological disorders?",
+            "Values": "Yes\nNo"
+        },
+        {
+            "Question": "Have you ever been investigated, treated or diagnosed or intending to seek any medical advice for any of the following conditions:",
+            "Values": null
+        },
+        {
+            "Question": "Diabetes mellitus, high blood sugar levels or sugar in urine",
+            "Values": "Yes\nNo"
+        },
+        {
+            "Question": "High blood pressure, chest pain, heart attack, heart murmur, shortness of breath or any other heart condition",
+            "Values": "Yes\nNo"
+        },
+        {
+            "Question": "Cancer, tumour, leukaemia, enlarged lymph nodes or any abnormal growth or any hormonal disorders or disorders of the blood and lymphatic system, eyes, ear, nose, throat",
+            "Values": "Yes\nNo"
+        },
+        {
+            "Question": "Asthma, tuberculosis, chronic cough, chronic bronchitis, emphysema, pneumonia or any other disease of the respiratory system",
+            "Values": "Yes\nNo"
+        },
+        {
+            "Question": "Stroke, paralysis, transient ischemic attack, epilepsy, head injury, tremors, dizzy or fainting spells, blurred or double vision, anxiety, depression, nervous breakdown or any other nervous or mental disorder",
+            "Values": "Yes\nNo"
+        },
+        {
+            "Question": "Recurrent indigestion, ulcer, jaundice, hepatitis, cirrhosis, kidney stone, kidney failure or any other disease of the stomach, bowels, liver, kidney, urinary bladder, prostate or reproductive system",
+            "Values": "Yes\nNo"
+        },
+        {
+            "Question": "Rheumatic arthritis, joint disease, bone disorders, muscular dystrophies or any physical deformity or congenital birth defects",
+            "Values": "Yes\nNo"
+        },
+        {
+            "Question": "Any other medical condition, illnesses, diseases, disorders, disability, surgery or treatment not mentioned above",
+            "Values": "Yes\nNo"
+        }
+    ]
+}

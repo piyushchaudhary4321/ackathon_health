@@ -1,0 +1,4 @@
+{
+    "Instruction": "This step involves telling the User if there are any negative findings that need to be addressed in detail later. If not, tell the user that the process is completed, and mention any pending data required. Generate Draft policy PDF file using the generated JSON",
+    "Data": []
+}

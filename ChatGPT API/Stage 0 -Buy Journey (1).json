@@ -1,0 +1,685 @@
+{
+    "Instruction": "Stage-1 Buy Journey\n\nIntroduce Acko Life insurance and explain that a Acko\u2019s life insurance plan helps you to Lockin the Low Premium, Scale-up your Insurance coverage as Family grows, Increase Coverage if you buy a new house, Decrease the coverage when loan is paid off. It also offers riders to take care of drastic health situation leading to complete loss of income.\n\nCollect below information from the customer and recommend a sum assured and Term for the Term life insurance policy\n\nName\nAge\nGender\nDependant Family members :  Spouse, Kids, Parents, Parent-in-laws\nAverage Monthly Income from all sources\nFinancial Goals in next 20 years : Buying house, higher education for kids, health coverage for aging parents\n\nCheck if the User is interested in buying the recommended plan or wants to change Sum assured or Term of plan or add the riders. Riders available are critical illness and permanent disability covers to take care of health expenses in case of any abrupt income loss event.\n\nGate criteria for Policy denial\nThese are go or no-go criteria to say whether we want to even evaluate a customer for Acko life insurance. Customers not meeting these criteria will be auto declined in the journey.\n\nKey parameters used for this evaluation are as follows, ask if the same is not available in conversation history :\nIncome\nEducation\nOccupation\nLocation (pincode)\nPolitically exposed person (PEP)\nFinancial Sum at Risk (FSAR) = Sum Assured that Users wants\n\nIf DRC risk category is Preferred or Standard\n\nFSAR <= 50 Lac\nFSAR > 50 Lac\nEducation\n>= Graduate\n< Graduate\n>= Graduate\n= HSC\n< HSC\nIncome (salaried)\n>= 2.5 Lac\n>= 5 Lac\n>= 4 Lac\n>= 5 Lac\n>= 10 Lac\nIncome (self employed)\n>= 4 Lac\n>= 5 Lac\n>= 5 Lac\n>= 5 Lac\n>= 10 Lac\n\nIf DRC risk category is Medium or High\n\nFSAR <= 50 lacs, min income required is 5 lacs\nFSAR > 50 lacs, min income required is 10 lacs\nAbove limits are irrespective of education or occupation\n\n*SSC is same as 10th Grade\n**HSC is same 12th Grade\n\nMin SSC education is required in any scenario. Below SSC will be rejected\nAll locations will be allowed initially. But system should have option to restrict basis pincode\nStudents/ Pensioners/ Agriculturist/Housewife/unemployed will be auto declined in phase 1 but can be offered insurance later on.\n\nReason for rejection that can be given to the customer are mentioned below:\nRisk associated with your occupation\nRisk associated with your health\nDue to involvement in risky adventure activities\nFinancial not suitable for policy\nIncomplete details provided\nNon availability of required information\nNon completion of required application process\n",
+    "Data": [
+        {
+            "Question - Life": "Name (first + last)",
+            "Checks": null,
+            "Section": "Pre-quote",
+            "Direct STP rule": null,
+            "VMER based STP rule": null,
+            "Pre-fill": "For logged in Acko customers, users, users landing from personalized campaigns",
+            "Straight decline questions": null,
+            "Allowed values": null
+        },
+        {
+            "Question - Life": "Date of birth (DoB)",
+            "Checks": null,
+            "Section": "Pre-quote",
+            "Direct STP rule": null,
+            "VMER based STP rule": null,
+            "Pre-fill": "For logged in Acko customers, users, users landing from personalized campaigns",
+            "Straight decline questions": "Yes",
+            "Allowed values": null
+        },
+        {
+            "Question - Life": "Gender",
+            "Checks": null,
+            "Section": "Pre-quote",
+            "Direct STP rule": null,
+            "VMER based STP rule": null,
+            "Pre-fill": "For logged in Acko customers, users, users landing from personalized campaigns",
+            "Straight decline questions": null,
+            "Allowed values": "Male, Female, Third gender"
+        },
+        {
+            "Question - Life": "Have you consumed tobacco in any form in last 1 year",
+            "Checks": null,
+            "Section": "Pre-quote",
+            "Direct STP rule": null,
+            "VMER based STP rule": null,
+            "Pre-fill": "Health customers, leads",
+            "Straight decline questions": null,
+            "Allowed values": "Yes/No"
+        },
+        {
+            "Question - Life": "Mobile number",
+            "Checks": null,
+            "Section": "Pre-quote",
+            "Direct STP rule": null,
+            "VMER based STP rule": null,
+            "Pre-fill": "For logged in Acko customers, users, users landing from personalized campaigns",
+            "Straight decline questions": null,
+            "Allowed values": null
+        },
+        {
+            "Question - Life": "email",
+            "Checks": null,
+            "Section": "Post-quote",
+            "Direct STP rule": null,
+            "VMER based STP rule": null,
+            "Pre-fill": "For logged in Acko customers, users, users landing from personalized campaigns",
+            "Straight decline questions": null,
+            "Allowed values": null
+        },
+        {
+            "Question - Life": "Plan details including riders",
+            "Checks": null,
+            "Section": "Quote",
+            "Direct STP rule": "FSAR",
+            "VMER based STP rule": "FSAR",
+            "Pre-fill": "SEM, campaigns",
+            "Straight decline questions": null,
+            "Allowed values": null
+        },
+        {
+            "Question - Life": "Pincode of current residential address",
+            "Checks": null,
+            "Section": null,
+            "Direct STP rule": null,
+            "VMER based STP rule": null,
+            "Pre-fill": null,
+            "Straight decline questions": null,
+            "Allowed values": null
+        },
+        {
+            "Question - Life": "Are you buying for yourself and paying by yourself?",
+            "Checks": null,
+            "Section": "Post-quote",
+            "Direct STP rule": null,
+            "VMER based STP rule": null,
+            "Pre-fill": null,
+            "Straight decline questions": null,
+            "Allowed values": null
+        },
+        {
+            "Question - Life": "Annual income",
+            "Checks": null,
+            "Section": "Income",
+            "Direct STP rule": "Gate criteria pass",
+            "VMER based STP rule": "Gate criteria pass",
+            "Pre-fill": "past leads, profile data",
+            "Straight decline questions": "Yes",
+            "Allowed values": null
+        },
+        {
+            "Question - Life": "Highest education",
+            "Checks": null,
+            "Section": "Demographic",
+            "Direct STP rule": "Gate criteria pass",
+            "VMER based STP rule": "Gate criteria pass",
+            "Pre-fill": "past leads, profile data",
+            "Straight decline questions": "Yes",
+            "Allowed values": "<10th, 10th pass, 12th pass, Graduate or diploma, Postgraduate or higher"
+        },
+        {
+            "Question - Life": "Marital status",
+            "Checks": null,
+            "Section": "Demographic",
+            "Direct STP rule": null,
+            "VMER based STP rule": null,
+            "Pre-fill": "past leads, profile data, health customers",
+            "Straight decline questions": null,
+            "Allowed values": "Single, Married, Widow, Widower"
+        },
+        {
+            "Question - Life": "Residential Status",
+            "Checks": null,
+            "Section": "Demographic",
+            "Direct STP rule": "Pass if resident indian",
+            "VMER based STP rule": "Pass if resident indian",
+            "Pre-fill": "past leads, profile data",
+            "Straight decline questions": null,
+            "Allowed values": "Resident Indian, NRI, PIO, OCI"
+        },
+        {
+            "Question - Life": "Do you have an existing life insurance policy? (Note: You can exclude any policy purchased to cover home loan or any other kind of loans or policy issued by your employer or other life insurance policies with Acko)",
+            "Checks": null,
+            "Section": null,
+            "Direct STP rule": "FSAR pass",
+            "VMER based STP rule": "FSAR pass",
+            "Pre-fill": null,
+            "Straight decline questions": null,
+            "Allowed values": null
+        },
+        {
+            "Question - Life": "Total sum assured of your existing policies\n(Note: You can exclude sum assured of non-death related riders like critical illness and disability riders)",
+            "Checks": "If yes to previous question",
+            "Section": null,
+            "Direct STP rule": "FSAR pass",
+            "VMER based STP rule": "FSAR pass",
+            "Pre-fill": null,
+            "Straight decline questions": null,
+            "Allowed values": null
+        },
+        {
+            "Question - Life": "Have you currently applied for any other life insurance policy with other insurers?",
+            "Checks": null,
+            "Section": null,
+            "Direct STP rule": "FSAR pass",
+            "VMER based STP rule": "FSAR pass",
+            "Pre-fill": null,
+            "Straight decline questions": null,
+            "Allowed values": null
+        },
+        {
+            "Question - Life": "Total sum assured of your other applications",
+            "Checks": "If yes to previous question",
+            "Section": null,
+            "Direct STP rule": "FSAR pass",
+            "VMER based STP rule": "FSAR pass",
+            "Pre-fill": null,
+            "Straight decline questions": null,
+            "Allowed values": null
+        },
+        {
+            "Question - Life": "Do you have any life insurance policy for which you have not done the payment in last 5 years?\n        (Note: Policies which are in lapsed status)",
+            "Checks": null,
+            "Section": null,
+            "Direct STP rule": "FSAR pass",
+            "VMER based STP rule": "FSAR pass",
+            "Pre-fill": null,
+            "Straight decline questions": null,
+            "Allowed values": null
+        },
+        {
+            "Question - Life": "Total sum assured of such policies",
+            "Checks": "If yes to previous question",
+            "Section": null,
+            "Direct STP rule": "FSAR pass",
+            "VMER based STP rule": "FSAR pass",
+            "Pre-fill": null,
+            "Straight decline questions": null,
+            "Allowed values": null
+        },
+        {
+            "Question - Life": "Has your any life insurance application in past been rejected or accepted after re-proposal with change in plan/premium?",
+            "Checks": null,
+            "Section": null,
+            "Direct STP rule": "pass if answered as No",
+            "VMER based STP rule": "pass if answered as No",
+            "Pre-fill": null,
+            "Straight decline questions": null,
+            "Allowed values": null
+        },
+        {
+            "Question - Life": "Reason for rejection or re-proposal",
+            "Checks": "If yes to previous question",
+            "Section": null,
+            "Direct STP rule": null,
+            "VMER based STP rule": null,
+            "Pre-fill": null,
+            "Straight decline questions": null,
+            "Allowed values": null
+        },
+        {
+            "Question - Life": "Select occupation\n1) Salaried\n2) Self employed\n3) Business owner",
+            "Checks": null,
+            "Section": "Employment details",
+            "Direct STP rule": null,
+            "VMER based STP rule": null,
+            "Pre-fill": "past leads, profile data",
+            "Straight decline questions": "Yes",
+            "Allowed values": null
+        },
+        {
+            "Question - Life": "Name of the company",
+            "Checks": "If occupation = salaried",
+            "Section": "Employment details",
+            "Direct STP rule": null,
+            "VMER based STP rule": null,
+            "Pre-fill": "GMC data",
+            "Straight decline questions": null,
+            "Allowed values": null
+        },
+        {
+            "Question - Life": "Select the industry",
+            "Checks": "If occupation = salaried, self employed or business owner",
+            "Section": "Employment details",
+            "Direct STP rule": "pass if STP industry selected from occupation sheet",
+            "VMER based STP rule": "pass if STP industry selected from occupation sheet",
+            "Pre-fill": "??",
+            "Straight decline questions": null,
+            "Allowed values": null
+        },
+        {
+            "Question - Life": "Does your work involve exposure to any of the following\n\nWorking with Boiler/furnaces, Ammunitions/Explosives,\nChemicals or radioactive substances, Power machines, Working at heights or underground/underwater etc.",
+            "Checks": null,
+            "Section": null,
+            "Direct STP rule": "Pass if no",
+            "VMER based STP rule": "Pass if no",
+            "Pre-fill": null,
+            "Straight decline questions": null,
+            "Allowed values": null
+        },
+        {
+            "Question - Life": "Select profession\nCA, doctor, etc, etc, others",
+            "Checks": "If occupation = self employed",
+            "Section": null,
+            "Direct STP rule": null,
+            "VMER based STP rule": null,
+            "Pre-fill": null,
+            "Straight decline questions": null,
+            "Allowed values": null
+        },
+        {
+            "Question - Life": "Name of the business",
+            "Checks": "If occupation = business owner",
+            "Section": null,
+            "Direct STP rule": null,
+            "VMER based STP rule": null,
+            "Pre-fill": null,
+            "Straight decline questions": null,
+            "Allowed values": null
+        },
+        {
+            "Question - Life": "Ownership %",
+            "Checks": "If occupation = business owner",
+            "Section": "Employment details",
+            "Direct STP rule": null,
+            "VMER based STP rule": null,
+            "Pre-fill": null,
+            "Straight decline questions": null,
+            "Allowed values": null
+        },
+        {
+            "Question - Life": "Occupation questionnaire",
+            "Checks": "Basis occupation declaration - industry and risks",
+            "Section": null,
+            "Direct STP rule": null,
+            "VMER based STP rule": null,
+            "Pre-fill": null,
+            "Straight decline questions": null,
+            "Allowed values": null
+        },
+        {
+            "Question - Life": "Nominee name (first + last)",
+            "Checks": null,
+            "Section": "Nominee + appointee details",
+            "Direct STP rule": null,
+            "VMER based STP rule": null,
+            "Pre-fill": "Profile data, GMC data, retail policy health, embedded date",
+            "Straight decline questions": null,
+            "Allowed values": null
+        },
+        {
+            "Question - Life": "Allocation %",
+            "Checks": null,
+            "Section": "Nominee + appointee details",
+            "Direct STP rule": null,
+            "VMER based STP rule": null,
+            "Pre-fill": "default to 100/dependents %",
+            "Straight decline questions": null,
+            "Allowed values": null
+        },
+        {
+            "Question - Life": "Relationship to insured",
+            "Checks": null,
+            "Section": "Nominee + appointee details",
+            "Direct STP rule": null,
+            "VMER based STP rule": null,
+            "Pre-fill": "Profile data, GMC data, retail policy health, embedded data",
+            "Straight decline questions": null,
+            "Allowed values": "Spouse\nFather\nMother\nSon\nDaughter\nBrother\nSister"
+        },
+        {
+            "Question - Life": "Nominee date of birth",
+            "Checks": null,
+            "Section": "Nominee + appointee details",
+            "Direct STP rule": null,
+            "VMER based STP rule": null,
+            "Pre-fill": "Profile data, GMC data, retail policy health, embedded data",
+            "Straight decline questions": null,
+            "Allowed values": null
+        },
+        {
+            "Question - Life": "Nominee contact number",
+            "Checks": null,
+            "Section": "Nominee + appointee details",
+            "Direct STP rule": null,
+            "VMER based STP rule": null,
+            "Pre-fill": "Profile data, GMC data, retail policy health, embedded data",
+            "Straight decline questions": null,
+            "Allowed values": null
+        },
+        {
+            "Question - Life": "Nominee email id",
+            "Checks": null,
+            "Section": "Nominee + appointee details",
+            "Direct STP rule": null,
+            "VMER based STP rule": null,
+            "Pre-fill": "Profile data, GMC data, retail policy health, embedded data",
+            "Straight decline questions": null,
+            "Allowed values": null
+        },
+        {
+            "Question - Life": "Appointee name (first + last)",
+            "Checks": null,
+            "Section": "Nominee + appointee details",
+            "Direct STP rule": null,
+            "VMER based STP rule": null,
+            "Pre-fill": "Profile data, GMC data, retail policy health, embedded data",
+            "Straight decline questions": null,
+            "Allowed values": null
+        },
+        {
+            "Question - Life": "Appointee date of birth",
+            "Checks": null,
+            "Section": "Nominee + appointee details",
+            "Direct STP rule": null,
+            "VMER based STP rule": null,
+            "Pre-fill": "Profile data, GMC data, retail policy health, embedded data",
+            "Straight decline questions": null,
+            "Allowed values": null
+        },
+        {
+            "Question - Life": "Relationship to nominee",
+            "Checks": null,
+            "Section": "Nominee + appointee details",
+            "Direct STP rule": null,
+            "VMER based STP rule": null,
+            "Pre-fill": "Profile data, GMC data, retail policy health, embedded data",
+            "Straight decline questions": null,
+            "Allowed values": "Any??"
+        },
+        {
+            "Question - Life": "Appointee contact number",
+            "Checks": null,
+            "Section": "Nominee + appointee details",
+            "Direct STP rule": null,
+            "VMER based STP rule": null,
+            "Pre-fill": "Profile data, GMC data, retail policy health, embedded data",
+            "Straight decline questions": null,
+            "Allowed values": null
+        },
+        {
+            "Question - Life": "Appointee email id",
+            "Checks": null,
+            "Section": "Nominee + appointee details",
+            "Direct STP rule": null,
+            "VMER based STP rule": null,
+            "Pre-fill": "Profile data, GMC data, retail policy health, embedded data",
+            "Straight decline questions": null,
+            "Allowed values": null
+        },
+        {
+            "Question - Life": "Are you (Insured) currently living or planning to travel outside India for a continuous period of more than 30 days, for any purpose other than vacation?",
+            "Checks": null,
+            "Section": "Travel details",
+            "Direct STP rule": "pass if answered as No or no country selected",
+            "VMER based STP rule": "pass if answered as No or no country selected",
+            "Pre-fill": null,
+            "Straight decline questions": null,
+            "Allowed values": null
+        },
+        {
+            "Question - Life": "Travel questionnaires",
+            "Checks": null,
+            "Section": "Travel details",
+            "Direct STP rule": null,
+            "VMER based STP rule": null,
+            "Pre-fill": null,
+            "Straight decline questions": null,
+            "Allowed values": null
+        },
+        {
+            "Question - Life": "Have you ever done any of the following activities in the past?\n\n diving, mountaineering, racing, etc",
+            "Checks": null,
+            "Section": "Hobbies details",
+            "Direct STP rule": "pass if answered as No",
+            "VMER based STP rule": "pass if answered as No",
+            "Pre-fill": null,
+            "Straight decline questions": null,
+            "Allowed values": null
+        },
+        {
+            "Question - Life": "Hobbies questionairre",
+            "Checks": null,
+            "Section": "Hobbies details",
+            "Direct STP rule": null,
+            "VMER based STP rule": null,
+            "Pre-fill": null,
+            "Straight decline questions": null,
+            "Allowed values": null
+        },
+        {
+            "Question - Life": "Are you a politically exposed person?\nPolitically Exposed Persons (PEPs) are individuals who are or have been entrusted with prominent public functions in a foreign country, example, Heads of State or of Governments, senior politicians, senior government / judicial / military officials, senior executives of state owned corporations, important political party officials, etc., including their family members and close relatives.",
+            "Checks": "do be done during KYC",
+            "Section": "Declaration",
+            "Direct STP rule": "pass if central KYC is ok",
+            "VMER based STP rule": "pass if central KYC is ok",
+            "Pre-fill": "basis past KYC done of the customers",
+            "Straight decline questions": null,
+            "Allowed values": null
+        },
+        {
+            "Question - Life": "Have you ever been or currently being investigated, charge sheeted, prosecuted or convicted or acquittal or having pending charges in respect of any criminal/civil offences in any court of law in India or abroad",
+            "Checks": null,
+            "Section": "Declaration",
+            "Direct STP rule": "pass if answered as No",
+            "VMER based STP rule": "pass if answered as No",
+            "Pre-fill": null,
+            "Straight decline questions": null,
+            "Allowed values": null
+        },
+        {
+            "Question - Life": "Height",
+            "Checks": null,
+            "Section": "Medical details - self",
+            "Direct STP rule": "pass if BMI is between 18-32",
+            "VMER based STP rule": "pass if BMI is between 18-32",
+            "Pre-fill": null,
+            "Straight decline questions": null,
+            "Allowed values": null
+        },
+        {
+            "Question - Life": "Weight",
+            "Checks": null,
+            "Section": "Medical details - self",
+            "Direct STP rule": "pass if BMI is between 18-32",
+            "VMER based STP rule": "pass if BMI is between 18-32",
+            "Pre-fill": null,
+            "Straight decline questions": null,
+            "Allowed values": null
+        },
+        {
+            "Question - Life": "Do you consume or smoke tobacco in any form (cigrattes, bidi, Gutkas packets, etc)?\nYes, everyday \nYes, a few times a week \nYes, a few times a year \n",
+            "Checks": "Only if answered yes to tobacco question during quote",
+            "Section": "Medical details - self",
+            "Direct STP rule": null,
+            "VMER based STP rule": null,
+            "Pre-fill": null,
+            "Straight decline questions": null,
+            "Allowed values": null
+        },
+        {
+            "Question - Life": "Select number of units for each type <daily/weekly)\n\n1-10\n11-15\n16-20\n21-25\n>25\n",
+            "Checks": "If answered \"In case of everyday or a few times a week\" to previous question",
+            "Section": null,
+            "Direct STP rule": "pass if \ndaily no. of cigrattes/bidi <= 20 or \ndaily no. of tobacco/gutkha <= 10. \nIn case of both consumption pass if total daily count <= 10",
+            "VMER based STP rule": "pass if \ndaily no. of cigrattes/bidi <= 20 or \ndaily no. of tobacco/gutkha <= 10. \nIn case of both consumption pass if total daily count <= 10",
+            "Pre-fill": null,
+            "Straight decline questions": null,
+            "Allowed values": null
+        },
+        {
+            "Question - Life": "Do you consume alcohol or have consumed in last 1 year?\n\nNo \nYes, everyday \nYes, a few times a week \nYes, a few times a year ",
+            "Checks": null,
+            "Section": "Medical details - self",
+            "Direct STP rule": null,
+            "VMER based STP rule": null,
+            "Pre-fill": null,
+            "Straight decline questions": null,
+            "Allowed values": null
+        },
+        {
+            "Question - Life": "Select the average frequency of consumption (combined) per day/week? If you consume different types if alcohol at times, use following to count total units\nCount 330 ml beer = 1 unit, 30ml spirits = 1unit, 150ml wine = 1unit, 1 cocktail= 2unit  \n\n1-5\n6-10\n11-15\n16-20\n>20",
+            "Checks": "If answered \"In case of everyday or a few times a week\" to previous question",
+            "Section": "Medical details - self",
+            "Direct STP rule": "Pass if total no. of units per week <= 10 and not a daily drinker",
+            "VMER based STP rule": "Pass if total no. of units per week <= 10 and not a daily drinker",
+            "Pre-fill": null,
+            "Straight decline questions": null,
+            "Allowed values": null
+        },
+        {
+            "Question - Life": "\nHave you ever been advised by a doctor to reduce your alcohol or tobacco consumption?\nProvide details",
+            "Checks": null,
+            "Section": "Medical details - self",
+            "Direct STP rule": "pass if no",
+            "VMER based STP rule": "pass if no",
+            "Pre-fill": null,
+            "Straight decline questions": null,
+            "Allowed values": null
+        },
+        {
+            "Question - Life": "Have you ever taken narcotics, e.g. Heroin, Cocaine, LSD, etc.?",
+            "Checks": null,
+            "Section": "Medical details - self",
+            "Direct STP rule": "Pass if answered as No",
+            "VMER based STP rule": "Pass if answered as No",
+            "Pre-fill": null,
+            "Straight decline questions": null,
+            "Allowed values": null
+        },
+        {
+            "Question - Life": "Has your weight increased or decreased by more than 5Kgs. in the last 1 year?",
+            "Checks": null,
+            "Section": "Medical details - self",
+            "Direct STP rule": "Pass if answered as No",
+            "VMER based STP rule": "Pass if answered as No",
+            "Pre-fill": null,
+            "Straight decline questions": null,
+            "Allowed values": null
+        },
+        {
+            "Question - Life": "Reason for change in weight\n\nIntentional change due to dieting or exercise\nMedical reasons\nUnknown",
+            "Checks": "to be asked if answered yes to weight change question",
+            "Section": null,
+            "Direct STP rule": "pass if for dieting/exercise selected as yes",
+            "VMER based STP rule": "Na",
+            "Pre-fill": null,
+            "Straight decline questions": null,
+            "Allowed values": null
+        },
+        {
+            "Question - Life": "Have you ever been investigated, treated or diagnosed or intending to seek any medical advice for any of the following conditions:\ni) Diabetes mellitus, high blood sugar levels or sugar in urine\nii) High blood pressure, chest pain, heart attack, heart murmur, shortness of breath or any other heart condition\niii) Cancer, tumour, leukaemia, enlarged lymph nodes or any abnormal growth or any hormonal disorders or disorders of the blood and lymphatic system, eyes, ear, nose, throat\niv) Asthma, tuberculosis, chronic cough, chronic bronchitis, emphysema, pneumonia or any other disease of the respiratory system\nv) Stroke, paralysis, transient ischemic attack, epilepsy, head injury, tremors, dizzy or fainting spells, blurred or double vision, anxiety, depression, nervous breakdown or any other nervous or mental disorder\nvi) Recurrent indigestion, ulcer, jaundice, hepatitis, cirrhosis, kidney stone, kidney failure or any other disease of the stomach, bowels, liver, kidney, urinary bladder, prostate or reproductive system\nvii) Rheumatic arthritis, joint disease, bone disorders, muscular dystrophies or any physical deformity or congenital birth defects\nviii) Any other medical condition, illnesses, diseases, disorders, disability, surgery or treatment not mentioned above\n\n",
+            "Checks": null,
+            "Section": "Medical details - self",
+            "Direct STP rule": "Pass if answered as No",
+            "VMER based STP rule": "Pass if answered as No",
+            "Pre-fill": null,
+            "Straight decline questions": null,
+            "Allowed values": null
+        },
+        {
+            "Question - Life": "Have you ever suffered or suffering from or have ever undergone any investigation or treatment or received medical advice for any other ailment or disorder which is specifically not mentioned above or have noticed any symptoms or growth in the body for which waiting to consult a doctor?",
+            "Checks": null,
+            "Section": "Medical details - self",
+            "Direct STP rule": "Pass if answered as No",
+            "VMER based STP rule": "Pass if answered as No",
+            "Pre-fill": null,
+            "Straight decline questions": null,
+            "Allowed values": null
+        },
+        {
+            "Question - Life": "Have you or your spouse ever tested positive or treated for any sexually transmitted disease, HIV/AIDS, Hepatitis B or C, or are you awaiting results of such a tests?",
+            "Checks": null,
+            "Section": "Medical details - self",
+            "Direct STP rule": "Pass if answered as No",
+            "VMER based STP rule": "Pass if answered as No",
+            "Pre-fill": null,
+            "Straight decline questions": null,
+            "Allowed values": null
+        },
+        {
+            "Question - Life": "During the last 5 years have you had or been advised to have any investigations like blood reports / ECG (other than pre-employment or preventive health check up) etc , surgery, have attended or been advised to attend a hospital or clinic or waiting for any kind of treatment to start?",
+            "Checks": null,
+            "Section": "Medical details - self",
+            "Direct STP rule": "Pass if answered as No",
+            "VMER based STP rule": "Pass if answered as No",
+            "Pre-fill": null,
+            "Straight decline questions": null,
+            "Allowed values": null
+        },
+        {
+            "Question - Life": "Have you ever been hospitalized for treatment of COVID related illness?",
+            "Checks": null,
+            "Section": "Medical details - self",
+            "Direct STP rule": "Pass if answered as No",
+            "VMER based STP rule": "Pass if answered as No",
+            "Pre-fill": null,
+            "Straight decline questions": null,
+            "Allowed values": null
+        },
+        {
+            "Question - Life": "If yes response to above 5 questions, please share following details and enclose copies of all investigation, treatment and follow up records since first diagnosis of the ailment\nDiagnosis and date of diagnosis\nProcedure (if any) and date of procedure\nCurrently on treatment (Yes/No)",
+            "Checks": null,
+            "Section": "Medical details - self",
+            "Direct STP rule": null,
+            "VMER based STP rule": null,
+            "Pre-fill": null,
+            "Straight decline questions": null,
+            "Allowed values": null
+        },
+        {
+            "Question - Life": "Are you currently pregnant? ",
+            "Checks": "Only female",
+            "Section": "Medical details - self",
+            "Direct STP rule": "Pass if answered as No",
+            "VMER based STP rule": "Pass if answered as No",
+            "Pre-fill": null,
+            "Straight decline questions": null,
+            "Allowed values": null
+        },
+        {
+            "Question - Life": "Are you suffering, being investigated or treated for any pregnancy related complication or any other\ngynaecological disorder?",
+            "Checks": "Only female",
+            "Section": "Medical details - self",
+            "Direct STP rule": "Pass if answered as No",
+            "VMER based STP rule": "Pass if answered as No",
+            "Pre-fill": null,
+            "Straight decline questions": null,
+            "Allowed values": null
+        },
+        {
+            "Question - Life": "Has more than one of your close relatives (father, mother, brother(s), sister(s) died before the age of\n60 years as a result of heart attack, stroke, cancer, diabetes, blood pressure, kidney disease or any hereditary disorder?",
+            "Checks": null,
+            "Section": "Medical details - family",
+            "Direct STP rule": "Pass if answered as No",
+            "VMER based STP rule": "Pass if answered as No",
+            "Pre-fill": null,
+            "Straight decline questions": null,
+            "Allowed values": null
+        },
+        {
+            "Question - Life": "Reason for rejection/re-proposal of previous insurance application",
+            "Checks": "Medical/Health \nIncome/financial\nOccupation\nHobbies or avocation\nOthers",
+            "Section": null,
+            "Direct STP rule": null,
+            "VMER based STP rule": null,
+            "Pre-fill": null,
+            "Straight decline questions": null,
+            "Allowed values": null
+        },
+        {
+            "Question - Life": "Nominee relationship allowed",
+            "Checks": "Mother\nFather\nSon\nDaughter\nSpouse\nBrother\nSister",
+            "Section": null,
+            "Direct STP rule": null,
+            "VMER based STP rule": null,
+            "Pre-fill": null,
+            "Straight decline questions": null,
+            "Allowed values": null
+        },
+        {
+            "Question - Life": "Appointee relationship allowed",
+            "Checks": "Mother\nFather\nBrother\nSister\nFriend",
+            "Section": null,
+            "Direct STP rule": null,
+            "VMER based STP rule": null,
+            "Pre-fill": null,
+            "Straight decline questions": null,
+            "Allowed values": null
+        }
+    ]
+}
