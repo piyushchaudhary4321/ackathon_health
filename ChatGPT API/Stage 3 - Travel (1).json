@@ -1,0 +1,1475 @@
+{
+    "Instruction": "This stage is to understand if the User’s International Travel history has any Physical risks If the International Travel History given by the user is marked in the STP column as “No”, ask for more details as mentioned in the other columns for the same row.",
+    "Data": [
+        {
+            "Region": "Africa",
+            "List of Countries": "Algeria",
+            "Details to be asked if required": "How long did you visit for or are going to visit for?",
+            "Options": "weeks dropdown in range"
+        },
+        {
+            "Region": null,
+            "List of Countries": "Angola",
+            "Details to be asked if required": "Where did you or where will you be travelling to?",
+            "Options": "Cities\nRemote areas"
+        },
+        {
+            "Region": null,
+            "List of Countries": "Benin",
+            "Details to be asked if required": "Where did you stay or where will you be staying?",
+            "Options": "Hotels\nHostels\nUnfavourable living conditions"
+        },
+        {
+            "Region": null,
+            "List of Countries": "Botswana",
+            "Details to be asked if required": "Select the purpose of your travel",
+            "Options": "Business trip\nAdventure\nLeisure"
+        },
+        {
+            "Region": null,
+            "List of Countries": "Burkina Faso",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Burundi",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Cameroon",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Cape Verde",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Central African Republic",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Chad",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Comoros",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Congo, Democratic Republic of the",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Congo, Republic of the",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Cote d'Ivoire",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Djibouti",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Egypt",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Equatorial Guinea",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Eritrea",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Ethiopia",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Gabon",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Gambia, The",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Ghana",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Guinea",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Guinea-Bissau",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Kenya",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Lesotho",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Liberia",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Libya",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Madagascar",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Malawi",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Mali",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Mauritania",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Mauritius",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Mayotte",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Morocco",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Mozambique",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Namibia",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Niger",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Nigeria",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Reunion",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Rwanda",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Saint Helena",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Sao Tome and Principe",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Senegal",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Seychelles",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Sierra Leone",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Somalia",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "South Africa",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "South Sudan",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Sudan",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Swaziland",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Tanzania",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Togo",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Tunisia",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Uganda",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Western Sahara",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Zambia",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Zimbabwe",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": "Antartica",
+            "List of Countries": "Antarctica",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Bouvet Island",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "French Southern and Antarctic Lands",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": "Asia",
+            "List of Countries": "Afghanistan",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Armenia",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Azerbaijan",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Bangladesh",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Bhutan",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Brunei",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Cambodia",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "China",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Georgia",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Hong Kong",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "India",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Indonesia",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Japan",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Kazakhstan",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Korea (North)",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Korea (South)",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Kyrgyzstan",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Laos",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Macau",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Malaysia",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Maldives",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Mongolia",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Myanmar",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Nepal",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Pakistan",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Philippines",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Singapore",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Sri Lanka",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Taiwan",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Tajikistan",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Thailand",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Timor-Leste",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Turkmenistan",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Uzbekistan",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Vietnam",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": "Austrasia",
+            "List of Countries": "American Samoa",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Australia",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "British Indian Ocean Territory",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Christmas Island",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Cocos (Keeling) Islands",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Cook Islands",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Fiji",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "French Polynesia",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Guam",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Heard Island and McDonald Islands",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Kiribati",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Marshall Islands",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Micronesia, Federated States of",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Nauru",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "New Caledonia",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "New Zealand",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Niue",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Norfolk Island",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Nothern Mariana Islands",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Palau",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Papua New Guinea",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Pitcairn Islands",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Samoa",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Solomon Islands",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Tokelau",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Tonga",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Tuvalu",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Vanuatu",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Wallis and Futuna Islands",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": "Caribbean",
+            "List of Countries": "Anguilla",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Antigua and Barbuda",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Aruba",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Bahamas, The",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Barbados",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Bermuda",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "British Virgin Islands",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Cayman Islands",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Cuba",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Dominica",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Dominican Republic",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Grenada",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Guadeloupe",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Haiti",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Jamaica",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Martinique",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Montserrat",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Netherlands Antilles",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Puerto Rico",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Saint Barth\u00e9lemy",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Saint Kitts and Nevis",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Saint Lucia",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Saint Martin",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Saint Vincent and the Grenadines",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Trinidad and Tobago",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Turks and Caicos Islands",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Virgin Islands",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": "Central America",
+            "List of Countries": "Belize",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Costa Rica",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "El Salvador",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Guatemala",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Honduras",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Mexico",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Nicaragua",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Panama",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": "Eastern Europe",
+            "List of Countries": "Albania",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Belarus",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Bosnia-Herzegovina",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Bulgaria",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Croatia",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Czech Republic",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Estonia",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Hungary",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Kosovo",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Latvia",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Lithuania",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Moldova",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Montenegro",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Poland",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Republic of North Macedonia",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Romania",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Russia",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Serbia",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Slovakia",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Slovenia",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Turkey",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Ukraine",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": "MIddle East",
+            "List of Countries": "Bahrain",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Iran",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Iraq",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Israel",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Jordan",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Kuwait",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Lebanon",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Oman",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Palestinian Territory, Occupied",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Qatar",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Saudi Arabia",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Syria",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "United Arab Emirates",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Yemen",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": "North America",
+            "List of Countries": "Canada",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Greenland",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Saint Pierre and Miquelon",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "U.S. Minor Outlying Islands",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "United States of America",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": "South America",
+            "List of Countries": "Argentina",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Bolivia",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Brazil",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Chile",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Colombia",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Ecuador",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Falkland Islands",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "French Guiana",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Guyana",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Paraguay",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Peru",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "South Georgia and the South Sandwich Islands",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Suriname",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Uruguay",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Venezuela",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": "Western Europe",
+            "List of Countries": "Aland Islands",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Andorra",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Austria",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Belgium",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Cyprus",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Denmark",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Faeroe Islands",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Finland",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "France",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Germany",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Gibraltar",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Greece",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Iceland",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Ireland",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Italy",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Liechtenstein",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Luxembourg",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Malta",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Monaco",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Netherlands",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Norway",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Portugal",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "San Marino",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Spain",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Svalbard",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Sweden",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Switzerland",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "United Kingdom",
+            "Details to be asked if required": null,
+            "Options": null
+        },
+        {
+            "Region": null,
+            "List of Countries": "Vatican City",
+            "Details to be asked if required": null,
+            "Options": null
+        }
+    ]
+}

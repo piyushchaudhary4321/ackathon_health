@@ -1,0 +1,661 @@
+{
+    "Instruction": "This stage involves asking for information that is not covered in the conversation so far. Check if most of the questions given in this sheet have been answered in the conversation so far. Summarize if any data points are missed, and ask the user about it.",
+    "Data": [
+        {
+            "Sl. No. ": 1.0,
+            "Question - Life": "Name (first + last)",
+            "Data Points Required mandatorily": "Yes",
+            "Needed for Underwriting": "No",
+            "Straight decline questions": null,
+            "Mobile keypad": null
+        },
+        {
+            "Sl. No. ": 2.0,
+            "Question - Life": "Date of birth (DoB)",
+            "Data Points Required mandatorily": "Yes",
+            "Needed for Underwriting": "Yes",
+            "Straight decline questions": "Yes, if outside the allowed age range",
+            "Mobile keypad": null
+        },
+        {
+            "Sl. No. ": 3.0,
+            "Question - Life": "Gender",
+            "Data Points Required mandatorily": "Yes",
+            "Needed for Underwriting": "Yes",
+            "Straight decline questions": null,
+            "Mobile keypad": null
+        },
+        {
+            "Sl. No. ": 4.0,
+            "Question - Life": "Have you consumed tobacco in any form in last 1 year",
+            "Data Points Required mandatorily": "Yes",
+            "Needed for Underwriting": "Yes",
+            "Straight decline questions": null,
+            "Mobile keypad": null
+        },
+        {
+            "Sl. No. ": 5.0,
+            "Question - Life": "Mobile number",
+            "Data Points Required mandatorily": "Yes",
+            "Needed for Underwriting": "No",
+            "Straight decline questions": null,
+            "Mobile keypad": null
+        },
+        {
+            "Sl. No. ": 6.0,
+            "Question - Life": "Pincode",
+            "Data Points Required mandatorily": "Yes",
+            "Needed for Underwriting": "Yes",
+            "Straight decline questions": "Yes for negative pincode",
+            "Mobile keypad": null
+        },
+        {
+            "Sl. No. ": 7.0,
+            "Question - Life": "email",
+            "Data Points Required mandatorily": "Yes",
+            "Needed for Underwriting": "No",
+            "Straight decline questions": null,
+            "Mobile keypad": null
+        },
+        {
+            "Sl. No. ": 8.0,
+            "Question - Life": "Height",
+            "Data Points Required mandatorily": "Yes",
+            "Needed for Underwriting": "Yes",
+            "Straight decline questions": null,
+            "Mobile keypad": null
+        },
+        {
+            "Sl. No. ": 9.0,
+            "Question - Life": "Weight",
+            "Data Points Required mandatorily": "Yes",
+            "Needed for Underwriting": "Yes",
+            "Straight decline questions": null,
+            "Mobile keypad": null
+        },
+        {
+            "Sl. No. ": 10.0,
+            "Question - Life": "No of cigarettes/bidi or No of pouches of tobacco/Gutkas per day",
+            "Data Points Required mandatorily": "Yes",
+            "Needed for Underwriting": "Yes",
+            "Straight decline questions": null,
+            "Mobile keypad": null
+        },
+        {
+            "Sl. No. ": 11.0,
+            "Question - Life": "Have you consumed alcohol in past year and quantity",
+            "Data Points Required mandatorily": "Yes",
+            "Needed for Underwriting": "Yes",
+            "Straight decline questions": null,
+            "Mobile keypad": null
+        },
+        {
+            "Sl. No. ": null,
+            "Question - Life": "No of beer bottles (330ml) or pegs (30 ml) of hard liquor per week",
+            "Data Points Required mandatorily": null,
+            "Needed for Underwriting": null,
+            "Straight decline questions": null,
+            "Mobile keypad": null
+        },
+        {
+            "Sl. No. ": 12.0,
+            "Question - Life": "Have you ever suffered or been diagnosed or been treated for any of the conditions?\n\nList of diseases",
+            "Data Points Required mandatorily": "Yes",
+            "Needed for Underwriting": "Yes",
+            "Straight decline questions": "Yes fo some serious conditions like heart ailments",
+            "Mobile keypad": null
+        },
+        {
+            "Sl. No. ": 15.0,
+            "Question - Life": "Did anyone in this plan undergo surgery or get hospitalised in the past 10 years? \n",
+            "Data Points Required mandatorily": "Yes",
+            "Needed for Underwriting": "Yes",
+            "Straight decline questions": null,
+            "Mobile keypad": null
+        },
+        {
+            "Sl. No. ": 16.0,
+            "Question - Life": "Are you pregnant",
+            "Data Points Required mandatorily": "Yes",
+            "Needed for Underwriting": "Yes",
+            "Straight decline questions": null,
+            "Mobile keypad": null
+        },
+        {
+            "Sl. No. ": 16.1,
+            "Question - Life": "Number of weeks into pregnancy",
+            "Data Points Required mandatorily": "Yes",
+            "Needed for Underwriting": "Yes",
+            "Straight decline questions": null,
+            "Mobile keypad": null
+        },
+        {
+            "Sl. No. ": 18.0,
+            "Question - Life": "Are you a politically exposed person (PEP)?",
+            "Data Points Required mandatorily": "Yes",
+            "Needed for Underwriting": "Yes",
+            "Straight decline questions": "Maybe yes",
+            "Mobile keypad": null
+        },
+        {
+            "Sl. No. ": 19.0,
+            "Question - Life": "Have you even been convicted of a criminal charges?",
+            "Data Points Required mandatorily": "Yes",
+            "Needed for Underwriting": "Yes",
+            "Straight decline questions": "Maybe yes",
+            "Mobile keypad": null
+        },
+        {
+            "Sl. No. ": 20.0,
+            "Question - Life": "Father's/spouse's name",
+            "Data Points Required mandatorily": "Yes",
+            "Needed for Underwriting": "No",
+            "Straight decline questions": null,
+            "Mobile keypad": null
+        },
+        {
+            "Sl. No. ": 21.0,
+            "Question - Life": "Mother's name",
+            "Data Points Required mandatorily": "Yes",
+            "Needed for Underwriting": "No",
+            "Straight decline questions": null,
+            "Mobile keypad": null
+        },
+        {
+            "Sl. No. ": 22.0,
+            "Question - Life": "Occupation",
+            "Data Points Required mandatorily": "Yes",
+            "Needed for Underwriting": "Yes",
+            "Straight decline questions": "Yes for student, housewife initially?",
+            "Mobile keypad": null
+        },
+        {
+            "Sl. No. ": 23.0,
+            "Question - Life": "Highest education",
+            "Data Points Required mandatorily": "Yes",
+            "Needed for Underwriting": "Yes",
+            "Straight decline questions": "Yes",
+            "Mobile keypad": null
+        },
+        {
+            "Sl. No. ": 24.0,
+            "Question - Life": "Total annual income",
+            "Data Points Required mandatorily": "Yes",
+            "Needed for Underwriting": "Yes",
+            "Straight decline questions": "Yes",
+            "Mobile keypad": null
+        },
+        {
+            "Sl. No. ": 26.0,
+            "Question - Life": "Employer name/Business name",
+            "Data Points Required mandatorily": "Yes",
+            "Needed for Underwriting": "Yes",
+            "Straight decline questions": null,
+            "Mobile keypad": null
+        },
+        {
+            "Sl. No. ": 27.0,
+            "Question - Life": "Industry you are working in",
+            "Data Points Required mandatorily": "Yes",
+            "Needed for Underwriting": "Yes",
+            "Straight decline questions": null,
+            "Mobile keypad": null
+        },
+        {
+            "Sl. No. ": 31.0,
+            "Question - Life": "Nominee name (first + last)",
+            "Data Points Required mandatorily": "Yes",
+            "Needed for Underwriting": "No",
+            "Straight decline questions": null,
+            "Mobile keypad": null
+        },
+        {
+            "Sl. No. ": 32.0,
+            "Question - Life": "Allocation %",
+            "Data Points Required mandatorily": "Yes",
+            "Needed for Underwriting": "No",
+            "Straight decline questions": null,
+            "Mobile keypad": null
+        },
+        {
+            "Sl. No. ": 33.0,
+            "Question - Life": "Relationship to insured",
+            "Data Points Required mandatorily": "Yes",
+            "Needed for Underwriting": "No",
+            "Straight decline questions": null,
+            "Mobile keypad": null
+        },
+        {
+            "Sl. No. ": 34.0,
+            "Question - Life": "Nominee date of birth",
+            "Data Points Required mandatorily": "Yes",
+            "Needed for Underwriting": "No",
+            "Straight decline questions": null,
+            "Mobile keypad": null
+        },
+        {
+            "Sl. No. ": 35.0,
+            "Question - Life": "Nominee contact number",
+            "Data Points Required mandatorily": "Yes",
+            "Needed for Underwriting": "No",
+            "Straight decline questions": null,
+            "Mobile keypad": null
+        },
+        {
+            "Sl. No. ": 36.0,
+            "Question - Life": "Nominee email id",
+            "Data Points Required mandatorily": "Yes",
+            "Needed for Underwriting": "No",
+            "Straight decline questions": null,
+            "Mobile keypad": null
+        },
+        {
+            "Sl. No. ": 37.0,
+            "Question - Life": "Nominee address",
+            "Data Points Required mandatorily": "Yes",
+            "Needed for Underwriting": "No",
+            "Straight decline questions": null,
+            "Mobile keypad": null
+        },
+        {
+            "Sl. No. ": 38.0,
+            "Question - Life": "Appointee name (first + last)",
+            "Data Points Required mandatorily": "Yes",
+            "Needed for Underwriting": "No",
+            "Straight decline questions": null,
+            "Mobile keypad": null
+        },
+        {
+            "Sl. No. ": 39.0,
+            "Question - Life": "Appointee date of birth",
+            "Data Points Required mandatorily": "Yes",
+            "Needed for Underwriting": "No",
+            "Straight decline questions": null,
+            "Mobile keypad": null
+        },
+        {
+            "Sl. No. ": 40.0,
+            "Question - Life": "Relationship to nominee",
+            "Data Points Required mandatorily": "Yes",
+            "Needed for Underwriting": "No",
+            "Straight decline questions": null,
+            "Mobile keypad": null
+        },
+        {
+            "Sl. No. ": 41.0,
+            "Question - Life": "Appointee contact number",
+            "Data Points Required mandatorily": "Yes",
+            "Needed for Underwriting": "No",
+            "Straight decline questions": null,
+            "Mobile keypad": null
+        },
+        {
+            "Sl. No. ": 42.0,
+            "Question - Life": "Appointee email id",
+            "Data Points Required mandatorily": "Yes",
+            "Needed for Underwriting": "No",
+            "Straight decline questions": null,
+            "Mobile keypad": null
+        },
+        {
+            "Sl. No. ": 43.0,
+            "Question - Life": "Appointee address",
+            "Data Points Required mandatorily": "Yes",
+            "Needed for Underwriting": "No",
+            "Straight decline questions": null,
+            "Mobile keypad": null
+        },
+        {
+            "Sl. No. ": 44.0,
+            "Question - Life": "Have you travelled or are planning to travel outside of India in past/next 6 months",
+            "Data Points Required mandatorily": "Yes",
+            "Needed for Underwriting": "Yes",
+            "Straight decline questions": null,
+            "Mobile keypad": null
+        },
+        {
+            "Sl. No. ": 44.1,
+            "Question - Life": "Name of country",
+            "Data Points Required mandatorily": "Yes",
+            "Needed for Underwriting": "Yes",
+            "Straight decline questions": null,
+            "Mobile keypad": null
+        },
+        {
+            "Sl. No. ": 45.0,
+            "Question - Life": "Do you have any of the following hobbies/avocation?",
+            "Data Points Required mandatorily": "Yes",
+            "Needed for Underwriting": "Yes",
+            "Straight decline questions": null,
+            "Mobile keypad": null
+        },
+        {
+            "Sl. No. ": 46.0,
+            "Question - Life": "Residential status",
+            "Data Points Required mandatorily": "Yes",
+            "Needed for Underwriting": "No",
+            "Straight decline questions": null,
+            "Mobile keypad": null
+        },
+        {
+            "Sl. No. ": 47.0,
+            "Question - Life": "Marital status",
+            "Data Points Required mandatorily": "Yes",
+            "Needed for Underwriting": "No",
+            "Straight decline questions": null,
+            "Mobile keypad": null
+        },
+        {
+            "Sl. No. ": 51.0,
+            "Question - Life": "Do you have any existing insurance cover of premium paying and / or paid up policies?",
+            "Data Points Required mandatorily": "Yes",
+            "Needed for Underwriting": "Yes",
+            "Straight decline questions": null,
+            "Mobile keypad": null
+        },
+        {
+            "Sl. No. ": 51.1,
+            "Question - Life": "Sum assured payable on death (A), accidental death(B), disability/critical illness (C)",
+            "Data Points Required mandatorily": "Yes",
+            "Needed for Underwriting": "Yes",
+            "Straight decline questions": null,
+            "Mobile keypad": null
+        },
+        {
+            "Sl. No. ": 52.0,
+            "Question - Life": "Have you submitted any simultaneous application for life insurance to another life insurance company, which is still pending or are you likely to revive policies",
+            "Data Points Required mandatorily": "Yes",
+            "Needed for Underwriting": "Yes",
+            "Straight decline questions": null,
+            "Mobile keypad": null
+        },
+        {
+            "Sl. No. ": 52.1,
+            "Question - Life": "Sum assured payable on death (A)",
+            "Data Points Required mandatorily": "Yes",
+            "Needed for Underwriting": "Yes",
+            "Straight decline questions": null,
+            "Mobile keypad": null
+        },
+        {
+            "Sl. No. ": 53.0,
+            "Question - Life": "Has any insurance application on your life been postponed / accepted with extra premium / accepted on other special terms / declined / withdrawn by you",
+            "Data Points Required mandatorily": "Yes",
+            "Needed for Underwriting": "Yes",
+            "Straight decline questions": null,
+            "Mobile keypad": null
+        },
+        {
+            "Sl. No. ": 53.1,
+            "Question - Life": "Reason",
+            "Data Points Required mandatorily": "Yes",
+            "Needed for Underwriting": "Yes",
+            "Straight decline questions": null,
+            "Mobile keypad": null
+        },
+        {
+            "Sl. No. ": 56.0,
+            "Question - Life": "Are any of your family members suffering from / have suffered from / have died of Heart disease, High Blood pressure, Stroke, Diabetes, Kidney disease, Cancer, HIV/AIDS?",
+            "Data Points Required mandatorily": "Yes",
+            "Needed for Underwriting": "Yes",
+            "Straight decline questions": null,
+            "Mobile keypad": null
+        },
+        {
+            "Sl. No. ": 56.1,
+            "Question - Life": "Relationship with you",
+            "Data Points Required mandatorily": "Yes",
+            "Needed for Underwriting": "Yes",
+            "Straight decline questions": null,
+            "Mobile keypad": null
+        },
+        {
+            "Sl. No. ": 56.2,
+            "Question - Life": "Disease name",
+            "Data Points Required mandatorily": "Yes",
+            "Needed for Underwriting": "Yes",
+            "Straight decline questions": null,
+            "Mobile keypad": null
+        },
+        {
+            "Sl. No. ": 56.3,
+            "Question - Life": "Age at diagnosis",
+            "Data Points Required mandatorily": "Yes",
+            "Needed for Underwriting": "Yes",
+            "Straight decline questions": null,
+            "Mobile keypad": null
+        },
+        {
+            "Sl. No. ": 56.4,
+            "Question - Life": "Alive/deceased",
+            "Data Points Required mandatorily": "Yes",
+            "Needed for Underwriting": "Yes",
+            "Straight decline questions": null,
+            "Mobile keypad": null
+        },
+        {
+            "Sl. No. ": 56.5,
+            "Question - Life": "Current age/age at death",
+            "Data Points Required mandatorily": "Yes",
+            "Needed for Underwriting": "Yes",
+            "Straight decline questions": null,
+            "Mobile keypad": null
+        },
+        {
+            "Sl. No. ": 57.0,
+            "Question - Life": "Permanent address",
+            "Data Points Required mandatorily": "Yes",
+            "Needed for Underwriting": "No",
+            "Straight decline questions": null,
+            "Mobile keypad": null
+        },
+        {
+            "Sl. No. ": 58.0,
+            "Question - Life": "Communication address",
+            "Data Points Required mandatorily": "Yes",
+            "Needed for Underwriting": "No",
+            "Straight decline questions": null,
+            "Mobile keypad": null
+        },
+        {
+            "Sl. No. ": 59.0,
+            "Question - Life": "KYC",
+            "Data Points Required mandatorily": "Yes",
+            "Needed for Underwriting": "No",
+            "Straight decline questions": null,
+            "Mobile keypad": null
+        },
+        {
+            "Sl. No. ": 60.0,
+            "Question - Life": "Financial uw screens",
+            "Data Points Required mandatorily": "Yes",
+            "Needed for Underwriting": "Yes",
+            "Straight decline questions": null,
+            "Mobile keypad": null
+        },
+        {
+            "Sl. No. ": 61.0,
+            "Question - Life": "Payment",
+            "Data Points Required mandatorily": "Yes",
+            "Needed for Underwriting": "No",
+            "Straight decline questions": null,
+            "Mobile keypad": null
+        },
+        {
+            "Sl. No. ": 62.0,
+            "Question - Life": "Mandate",
+            "Data Points Required mandatorily": "Yes",
+            "Needed for Underwriting": "No",
+            "Straight decline questions": null,
+            "Mobile keypad": null
+        },
+        {
+            "Sl. No. ": 63.0,
+            "Question - Life": "Covid questions (7-8 questions)",
+            "Data Points Required mandatorily": "Yes",
+            "Needed for Underwriting": "Yes",
+            "Straight decline questions": "Yes",
+            "Mobile keypad": null
+        },
+        {
+            "Sl. No. ": 63.1,
+            "Question - Life": "Have you been tested positive for COVID-19* or are awaiting results of such a test?",
+            "Data Points Required mandatorily": "Yes",
+            "Needed for Underwriting": "No",
+            "Straight decline questions": null,
+            "Mobile keypad": null
+        },
+        {
+            "Sl. No. ": 63.2,
+            "Question - Life": "Date of diagnosis test ?",
+            "Data Points Required mandatorily": "Yes",
+            "Needed for Underwriting": null,
+            "Straight decline questions": null,
+            "Mobile keypad": null
+        },
+        {
+            "Sl. No. ": 63.3,
+            "Question - Life": "Were you hospitalised ?",
+            "Data Points Required mandatorily": "Yes",
+            "Needed for Underwriting": null,
+            "Straight decline questions": null,
+            "Mobile keypad": null
+        },
+        {
+            "Sl. No. ": 63.4,
+            "Question - Life": "Provide date of negative test report or hospital discharge date or last day of quarantine whichever is later",
+            "Data Points Required mandatorily": "Yes",
+            "Needed for Underwriting": null,
+            "Straight decline questions": null,
+            "Mobile keypad": null
+        },
+        {
+            "Sl. No. ": 63.5,
+            "Question - Life": "Details of subsequent tests done post hospitalization / quarantine during recovery like RTPCR, CXR, HRCT, Ddimer etc",
+            "Data Points Required mandatorily": "Yes",
+            "Needed for Underwriting": null,
+            "Straight decline questions": null,
+            "Mobile keypad": null
+        },
+        {
+            "Sl. No. ": 63.6,
+            "Question - Life": "Have you made a full recovery to good health without complications and returned to normal physical function and activities ?",
+            "Data Points Required mandatorily": "Yes",
+            "Needed for Underwriting": null,
+            "Straight decline questions": null,
+            "Mobile keypad": null
+        },
+        {
+            "Sl. No. ": 63.7,
+            "Question - Life": "Date of administration of the 1st dose",
+            "Data Points Required mandatorily": "Yes",
+            "Needed for Underwriting": null,
+            "Straight decline questions": null,
+            "Mobile keypad": null
+        },
+        {
+            "Sl. No. ": 63.8,
+            "Question - Life": "Date of administration of the 2nd dose",
+            "Data Points Required mandatorily": "Yes",
+            "Needed for Underwriting": null,
+            "Straight decline questions": null,
+            "Mobile keypad": null
+        },
+        {
+            "Sl. No. ": 63.9,
+            "Question - Life": "Date of administration of the Booster dose",
+            "Data Points Required mandatorily": "Yes",
+            "Needed for Underwriting": null,
+            "Straight decline questions": null,
+            "Mobile keypad": null
+        },
+        {
+            "Sl. No. ": 63.1,
+            "Question - Life": "Name of the vaccine",
+            "Data Points Required mandatorily": "Yes",
+            "Needed for Underwriting": null,
+            "Straight decline questions": null,
+            "Mobile keypad": null
+        },
+        {
+            "Sl. No. ": 64.0,
+            "Question - Life": "eIA consent",
+            "Data Points Required mandatorily": "Yes",
+            "Needed for Underwriting": null,
+            "Straight decline questions": null,
+            "Mobile keypad": null
+        },
+        {
+            "Sl. No. ": 65.0,
+            "Question - Life": "Reflexive questions based on industry/nature of work/hobbies",
+            "Data Points Required mandatorily": "Yes",
+            "Needed for Underwriting": null,
+            "Straight decline questions": null,
+            "Mobile keypad": null
+        },
+        {
+            "Sl. No. ": 66.0,
+            "Question - Life": "Residential status",
+            "Data Points Required mandatorily": "Yes",
+            "Needed for Underwriting": null,
+            "Straight decline questions": null,
+            "Mobile keypad": null
+        },
+        {
+            "Sl. No. ": 67.0,
+            "Question - Life": "Lost 10 Kg or more weight within 6 months or have any bodily defect or deformity?",
+            "Data Points Required mandatorily": "Yes",
+            "Needed for Underwriting": null,
+            "Straight decline questions": null,
+            "Mobile keypad": null
+        },
+        {
+            "Sl. No. ": 68.0,
+            "Question - Life": "Have you ever taken narcotics, e.g. Heroin, Cocaine, LSD, etc.?",
+            "Data Points Required mandatorily": "Yes",
+            "Needed for Underwriting": null,
+            "Straight decline questions": null,
+            "Mobile keypad": null
+        },
+        {
+            "Sl. No. ": 69.0,
+            "Question - Life": "Have you ever been diagnosed or treated for Diabetes/ High blood pressure/ heart disease/ Chest pain/ Shortness of breath/ Nervous system and psychiatric disorders like Epilepsy, Stroke or paralysis/Cancer, tumor, growth, polyp or cysts / Any organ failure or transplant/ Blood disorders like Leukemia, Anemia or Thalassemia/ Asthma/ Tuberculosis/ Chronic cough, Gastrointestinal disorders like Hepatitis, Jaundice or Cirrhosis/ Thyroid, Kidney or Prostate disorders/ Sexually transmitted diseases like Hepatitis B/C or HIV/AIDS, etc?",
+            "Data Points Required mandatorily": "Yes",
+            "Needed for Underwriting": null,
+            "Straight decline questions": null,
+            "Mobile keypad": null
+        },
+        {
+            "Sl. No. ": 70.0,
+            "Question - Life": "Have you ever suffered or suffering from or have ever undergone any investigation or treatment or received medical advice for any other ailment or disorder which is specifically not mentioned above or have noticed any symptoms or growth in the body for which waiting to consult a doctor?",
+            "Data Points Required mandatorily": "Yes",
+            "Needed for Underwriting": null,
+            "Straight decline questions": null,
+            "Mobile keypad": null
+        },
+        {
+            "Sl. No. ": 71.0,
+            "Question - Life": "Undergone or been advised to undergo a surgery/hospitalization ever?",
+            "Data Points Required mandatorily": "Yes",
+            "Needed for Underwriting": null,
+            "Straight decline questions": null,
+            "Mobile keypad": null
+        },
+        {
+            "Sl. No. ": 72.0,
+            "Question - Life": "Undergone or been advised to undergo any test/investigation or had any ailment/injury requiring treatment for continuous period of a week in last 5 years?",
+            "Data Points Required mandatorily": "Yes",
+            "Needed for Underwriting": null,
+            "Straight decline questions": null,
+            "Mobile keypad": null
+        },
+        {
+            "Sl. No. ": 73.0,
+            "Question - Life": "If yes response to above 4 questions, please share following details and enclose copies of all investigation, treatment and follow up records since first diagnosis of the ailment\nDiagnosis and date of diagnosis\nProcedure (if any) and date of procedure\nCurrently on treatment (Yes/No)",
+            "Data Points Required mandatorily": "Yes",
+            "Needed for Underwriting": null,
+            "Straight decline questions": null,
+            "Mobile keypad": null
+        }
+    ]
+}

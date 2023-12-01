@@ -1,0 +1,491 @@
+{
+    "Instruction": "This stage is to understand if the User’s Occupation has any Physical risks. If the occupation given by the user is marked in the STP column as “No”, ask for more details as mentioned in the other columns for the same row.",
+    "Data": [
+        {
+            "STP (no follow up questions)": "No",
+            "Select your industry": "Agriculture and allied ",
+            "Select your field of work": null,
+            "What is the nature of your work?": " Agricultural administrator\n Agricultural and horticultural worker\n Animal handlers and breeders\n Animal trainers\n Others",
+            "How would you describe your tasks and responsibilities?": null,
+            "Select your tasks and responsibilities": null,
+            "Sub options": null
+        },
+        {
+            "STP (no follow up questions)": "No",
+            "Select your industry": "Armed forces",
+            "Select your field of work": null,
+            "What is the nature of your work?": "Administrative or non-combat (desk) duties like accountant, IT specialist, etc\nSoldierly duties like infantry, armored warfare, etc\nMilitary flying duties like fixed wing aircraft, fighter jets and helicopters",
+            "How would you describe your tasks and responsibilities?": "\nIf soldierly duties selected \n\nSpecial duties\nStandard duties  \n\nIf military flying selected \n\nGeneral duties (pilots, aircrew, etc)\nGeneral duties instructor\nAir transportation       \nAir transportation instructor   \nTesting prototypes or repaired/modified aircraft",
+            "Select your tasks and responsibilities": "If special duties selected\n\nBomb disposal\nMine clearance        \nSpecial forces        \nOthers",
+            "Sub options": null
+        },
+        {
+            "STP (no follow up questions)": "No",
+            "Select your industry": "Asbestos mining",
+            "Select your field of work": null,
+            "What is the nature of your work?": null,
+            "How would you describe your tasks and responsibilities?": null,
+            "Select your tasks and responsibilities": null,
+            "Sub options": null
+        },
+        {
+            "STP (no follow up questions)": "No",
+            "Select your industry": "Auto components",
+            "Select your field of work": null,
+            "What is the nature of your work?": null,
+            "How would you describe your tasks and responsibilities?": "Working with boiler/furnaces\nWorking with ammunitions/explosives\nExposure to chemicals or radioactive substances \nWorking with power machines\nWorking at heights or underground/underwater\nAny other risky activity\nNone of the above",
+            "Select your tasks and responsibilities": null,
+            "Sub options": null
+        },
+        {
+            "STP (no follow up questions)": "No",
+            "Select your industry": "Automobiles",
+            "Select your field of work": null,
+            "What is the nature of your work?": null,
+            "How would you describe your tasks and responsibilities?": "Working with boiler/furnaces\nWorking with ammunitions/explosives\nExposure to chemicals or radioactive substances \nWorking with power machines\nWorking at heights or underground/underwater\nAny other risky activity\nNone of the above",
+            "Select your tasks and responsibilities": null,
+            "Sub options": null
+        },
+        {
+            "STP (no follow up questions)": "No",
+            "Select your industry": "Aviation",
+            "Select your field of work": "Ground crew\nCabin crew\nPilots",
+            "What is the nature of your work?": "If pilot selected\n\nPilots and aircrew\nCompany aircraft pilot, \nAerial photographer\nAerial surveyor\nInstructors\nOff-shore oil and gas platforms\nConstruction-heavy load transportation\nTesting prototypes or repaired/modified aircraft\nCrop spraying\nFlying police helicopters ",
+            "How would you describe your tasks and responsibilities?": "Number of hours\n\nFlying less than 25 hours per year\nFlying 25-50 hours per year\nFlying 51- 75 hours per year\nFlying 76 - 100 hours per year\nFlying 101 - 200 hours per year\nFlying more than 200 hours per year",
+            "Select your tasks and responsibilities": null,
+            "Sub options": null
+        },
+        {
+            "STP (no follow up questions)": "Yes",
+            "Select your industry": "Banking",
+            "Select your field of work": null,
+            "What is the nature of your work?": null,
+            "How would you describe your tasks and responsibilities?": null,
+            "Select your tasks and responsibilities": null,
+            "Sub options": null
+        },
+        {
+            "STP (no follow up questions)": "No",
+            "Select your industry": "Biotechnology",
+            "Select your field of work": null,
+            "What is the nature of your work?": null,
+            "How would you describe your tasks and responsibilities?": "Working with boiler/furnaces\nWorking with ammunitions/explosives\nExposure to chemicals or radioactive substances \nWorking with power machines\nWorking at heights or underground/underwater\nAny other risky activity\nNone of the above",
+            "Select your tasks and responsibilities": null,
+            "Sub options": null
+        },
+        {
+            "STP (no follow up questions)": "No",
+            "Select your industry": "Cement",
+            "Select your field of work": null,
+            "What is the nature of your work?": null,
+            "How would you describe your tasks and responsibilities?": null,
+            "Select your tasks and responsibilities": null,
+            "Sub options": null
+        },
+        {
+            "STP (no follow up questions)": "No",
+            "Select your industry": "Chemicals",
+            "Select your field of work": null,
+            "What is the nature of your work?": null,
+            "How would you describe your tasks and responsibilities?": null,
+            "Select your tasks and responsibilities": null,
+            "Sub options": null
+        },
+        {
+            "STP (no follow up questions)": "No",
+            "Select your industry": "Construction",
+            "Select your field of work": null,
+            "What is the nature of your work?": "Worker\nDriver/operator\nSpecial hazards labourer\nTechnician/administrator\nFloor worker",
+            "How would you describe your tasks and responsibilities?": "If labourer selected\n\nWorking at heights under 15 metres \nWorking at heights over 15 metres ",
+            "Select your tasks and responsibilities": null,
+            "Sub options": null
+        },
+        {
+            "STP (no follow up questions)": "No",
+            "Select your industry": "Consumer durables",
+            "Select your field of work": null,
+            "What is the nature of your work?": null,
+            "How would you describe your tasks and responsibilities?": "Working with boiler/furnaces\nWorking with ammunitions/explosives\nExposure to chemicals or radioactive substances \nWorking with power machines\nWorking at heights or underground/underwater\nAny other risky activity\nNone of the above",
+            "Select your tasks and responsibilities": null,
+            "Sub options": null
+        },
+        {
+            "STP (no follow up questions)": "No",
+            "Select your industry": "Defence manufacturing",
+            "Select your field of work": null,
+            "What is the nature of your work?": null,
+            "How would you describe your tasks and responsibilities?": "Working with boiler/furnaces\nWorking with ammunitions/explosives\nExposure to chemicals or radioactive substances \nWorking with power machines\nWorking at heights or underground/underwater\nAny other risky activity\nNone of the above",
+            "Select your tasks and responsibilities": null,
+            "Sub options": null
+        },
+        {
+            "STP (no follow up questions)": "No",
+            "Select your industry": "Diving",
+            "Select your field of work": "Offshore\nInland/Onshore\nScientific/Police\nInstructor\nHazmat\nMilitary",
+            "What is the nature of your work?": null,
+            "How would you describe your tasks and responsibilities?": "Diving in depths less than or equal to 50 metres with explosives \nDiving in less than or equal to 50 metres without explosives\nDiving in more than 50 metres with no explosives involved\nDiving in more than 50 metres with explosives involved",
+            "Select your tasks and responsibilities": null,
+            "Sub options": null
+        },
+        {
+            "STP (no follow up questions)": "No",
+            "Select your industry": "Dockyard",
+            "Select your field of work": " Dockyard\n Harbour",
+            "What is the nature of your work?": "Worker\nOthers",
+            "How would you describe your tasks and responsibilities?": null,
+            "Select your tasks and responsibilities": null,
+            "Sub options": null
+        },
+        {
+            "STP (no follow up questions)": "No",
+            "Select your industry": "Driving and transportation",
+            "Select your field of work": "Airport transport\nRailways transport\nDriving\nRoad transport",
+            "What is the nature of your work?": "Instructor\nAdministrator\nSupervisor\nGuard\nDriver\nMessenger\nDustmen and road cleaners\nWorkers\nOthers",
+            "How would you describe your tasks and responsibilities?": null,
+            "Select your tasks and responsibilities": null,
+            "Sub options": null
+        },
+        {
+            "STP (no follow up questions)": "Yes",
+            "Select your industry": "E-commerce",
+            "Select your field of work": null,
+            "What is the nature of your work?": null,
+            "How would you describe your tasks and responsibilities?": null,
+            "Select your tasks and responsibilities": null,
+            "Sub options": null
+        },
+        {
+            "STP (no follow up questions)": "No",
+            "Select your industry": "Education and training",
+            "Select your field of work": "Teaching\nOthers",
+            "What is the nature of your work?": "Teacher - Normal (School or university teacher)\nTeacher - Upscaled like (Extreme sports, martial arts teacher,etc)\nTeacher - Others",
+            "How would you describe your tasks and responsibilities?": "If others selected\n\nWith vocational training\nWithout vocational training",
+            "Select your tasks and responsibilities": "If others selected\n\nTeaching artistic\nNon predominnantly artistic",
+            "Sub options": null
+        },
+        {
+            "STP (no follow up questions)": "No",
+            "Select your industry": "Electronics system design & manufacturing",
+            "Select your field of work": null,
+            "What is the nature of your work?": null,
+            "How would you describe your tasks and responsibilities?": "Working with boiler/furnaces\nWorking with ammunitions/explosives\nExposure to chemicals or radioactive substances \nWorking with power machines\nWorking at heights or underground/underwater\nAny other risky activity\nNone of the above",
+            "Select your tasks and responsibilities": null,
+            "Sub options": null
+        },
+        {
+            "STP (no follow up questions)": "No",
+            "Select your industry": "Engineering and capital goods",
+            "Select your field of work": null,
+            "What is the nature of your work?": null,
+            "How would you describe your tasks and responsibilities?": "Working with boiler/furnaces\nWorking with ammunitions/explosives\nExposure to chemicals or radioactive substances \nWorking with power machines\nWorking at heights or underground/underwater\nAny other risky activity\nNone of the above",
+            "Select your tasks and responsibilities": null,
+            "Sub options": null
+        },
+        {
+            "STP (no follow up questions)": "Yes",
+            "Select your industry": "Financial services",
+            "Select your field of work": null,
+            "What is the nature of your work?": null,
+            "How would you describe your tasks and responsibilities?": null,
+            "Select your tasks and responsibilities": null,
+            "Sub options": null
+        },
+        {
+            "STP (no follow up questions)": "No",
+            "Select your industry": "Fishing",
+            "Select your field of work": "Fishery\nFishing boat crew",
+            "What is the nature of your work?": "Administrator\nWorker\nCaptain\nOthers",
+            "How would you describe your tasks and responsibilities?": null,
+            "Select your tasks and responsibilities": null,
+            "Sub options": null
+        },
+        {
+            "STP (no follow up questions)": "No",
+            "Select your industry": "FMCG",
+            "Select your field of work": null,
+            "What is the nature of your work?": null,
+            "How would you describe your tasks and responsibilities?": "Working with boiler/furnaces\nWorking with ammunitions/explosives\nExposure to chemicals or radioactive substances \nWorking with power machines\nWorking at heights or underground/underwater\nAny other risky activity\nNone of the above",
+            "Select your tasks and responsibilities": null,
+            "Sub options": null
+        },
+        {
+            "STP (no follow up questions)": "No",
+            "Select your industry": "Gems and jewellery",
+            "Select your field of work": null,
+            "What is the nature of your work?": null,
+            "How would you describe your tasks and responsibilities?": "Working with boiler/furnaces\nWorking with ammunitions/explosives\nExposure to chemicals or radioactive substances \nWorking with power machines\nWorking at heights or underground/underwater\nAny other risky activity\nNone of the above",
+            "Select your tasks and responsibilities": null,
+            "Sub options": null
+        },
+        {
+            "STP (no follow up questions)": "No",
+            "Select your industry": "Health and welfare",
+            "Select your field of work": " Dentists\n Doctors\n Nurses\n Funeral services\n Medical\n Public health service\n Pest control\n Public services\n Others",
+            "What is the nature of your work?": "Administrator\nAssistant\nWorker\nOthers",
+            "How would you describe your tasks and responsibilities?": null,
+            "Select your tasks and responsibilities": null,
+            "Sub options": null
+        },
+        {
+            "STP (no follow up questions)": "No",
+            "Select your industry": "Hotel and catering",
+            "Select your field of work": "Alcohol production\nFood industry\nFood processing\nFood production\nHotel and catering\nOthers",
+            "What is the nature of your work?": "Worker\nAdministrator\nDangerous work\nOthers",
+            "How would you describe your tasks and responsibilities?": null,
+            "Select your tasks and responsibilities": null,
+            "Sub options": null
+        },
+        {
+            "STP (no follow up questions)": "No",
+            "Select your industry": "Infrastructure",
+            "Select your field of work": null,
+            "What is the nature of your work?": null,
+            "How would you describe your tasks and responsibilities?": "Working with boiler/furnaces\nWorking with ammunitions/explosives\nExposure to chemicals or radioactive substances \nWorking with power machines\nWorking at heights or underground/underwater\nAny other risky activity\nNone of the above",
+            "Select your tasks and responsibilities": null,
+            "Sub options": null
+        },
+        {
+            "STP (no follow up questions)": "Yes",
+            "Select your industry": "Insurance",
+            "Select your field of work": null,
+            "What is the nature of your work?": null,
+            "How would you describe your tasks and responsibilities?": null,
+            "Select your tasks and responsibilities": null,
+            "Sub options": null
+        },
+        {
+            "STP (no follow up questions)": "Yes",
+            "Select your industry": "IT & Business process management (BPM)",
+            "Select your field of work": null,
+            "What is the nature of your work?": null,
+            "How would you describe your tasks and responsibilities?": null,
+            "Select your tasks and responsibilities": null,
+            "Sub options": null
+        },
+        {
+            "STP (no follow up questions)": "No",
+            "Select your industry": "Logistics",
+            "Select your field of work": null,
+            "What is the nature of your work?": null,
+            "How would you describe your tasks and responsibilities?": "Working with boiler/furnaces\nWorking with ammunitions/explosives\nExposure to chemicals or radioactive substances \nWorking with power machines\nWorking at heights or underground/underwater\nAny other risky activity\nNone of the above",
+            "Select your tasks and responsibilities": null,
+            "Sub options": null
+        },
+        {
+            "STP (no follow up questions)": "No",
+            "Select your industry": "Manufacturing",
+            "Select your field of work": "Details of industry (Free text)",
+            "What is the nature of your work?": "Nature of duties (free text)",
+            "How would you describe your tasks and responsibilities?": null,
+            "Select your tasks and responsibilities": null,
+            "Sub options": null
+        },
+        {
+            "STP (no follow up questions)": "No",
+            "Select your industry": "Media and entertainment",
+            "Select your field of work": "Circus\nCasino and gambling personnel\nEntertainment electronics\nEntertainment\nRadio and television\nOthers",
+            "What is the nature of your work?": "Dancer\nMusician\nPerformer\nProducer and administrator\nWriter and composer\nOthers",
+            "How would you describe your tasks and responsibilities?": null,
+            "Select your tasks and responsibilities": null,
+            "Sub options": null
+        },
+        {
+            "STP (no follow up questions)": "No",
+            "Select your industry": "Medical devices",
+            "Select your field of work": null,
+            "What is the nature of your work?": null,
+            "How would you describe your tasks and responsibilities?": "Working with boiler/furnaces\nWorking with ammunitions/explosives\nExposure to chemicals or radioactive substances \nWorking with power machines\nWorking at heights or underground/underwater\nAny other risky activity\nNone of the above",
+            "Select your tasks and responsibilities": null,
+            "Sub options": null
+        },
+        {
+            "STP (no follow up questions)": "No",
+            "Select your industry": "Marine trade industry",
+            "Select your field of work": null,
+            "What is the nature of your work?": "Administrator\nInland water crew/Marine biologist\nOff-shore engineer \nOff-shore ship crew engineer\nPilot\nLighthouse keeper\nOthers",
+            "How would you describe your tasks and responsibilities?": null,
+            "Select your tasks and responsibilities": null,
+            "Sub options": null
+        },
+        {
+            "STP (no follow up questions)": "No",
+            "Select your industry": "Metals and mining",
+            "Select your field of work": "Coal mining\nMetals and minerals\nStone and clay",
+            "What is the nature of your work?": "Worker\nOthers",
+            "How would you describe your tasks and responsibilities?": null,
+            "Select your tasks and responsibilities": null,
+            "Sub options": null
+        },
+        {
+            "STP (no follow up questions)": "No",
+            "Select your industry": "MSME",
+            "Select your field of work": null,
+            "What is the nature of your work?": null,
+            "How would you describe your tasks and responsibilities?": "Working with boiler/furnaces\nWorking with ammunitions/explosives\nExposure to chemicals or radioactive substances \nWorking with power machines\nWorking at heights or underground/underwater\nAny other risky activity\nNone of the above",
+            "Select your tasks and responsibilities": null,
+            "Sub options": null
+        },
+        {
+            "STP (no follow up questions)": "No",
+            "Select your industry": "Oil and gas",
+            "Select your field of work": "Energy\nOil rig\nOthers",
+            "What is the nature of your work?": "Supervisor\nFlying personnel\nManager\nWorker with dangerous duties\nWorker with very dangerous duties\nOthers",
+            "How would you describe your tasks and responsibilities?": "For last 2 options\n\nDetails of duties (free text)",
+            "Select your tasks and responsibilities": null,
+            "Sub options": null
+        },
+        {
+            "STP (no follow up questions)": "No",
+            "Select your industry": "Others",
+            "Select your field of work": "Details of industry (Free text)",
+            "What is the nature of your work?": "Nature of duties (free text)",
+            "How would you describe your tasks and responsibilities?": null,
+            "Select your tasks and responsibilities": null,
+            "Sub options": null
+        },
+        {
+            "STP (no follow up questions)": "No",
+            "Select your industry": "Pharmaceuticals",
+            "Select your field of work": null,
+            "What is the nature of your work?": null,
+            "How would you describe your tasks and responsibilities?": "Working with boiler/furnaces\nWorking with ammunitions/explosives\nExposure to chemicals or radioactive substances \nWorking with power machines\nWorking at heights or underground/underwater\nAny other risky activity\nNone of the above",
+            "Select your tasks and responsibilities": null,
+            "Sub options": null
+        },
+        {
+            "STP (no follow up questions)": "No",
+            "Select your industry": "Port",
+            "Select your field of work": null,
+            "What is the nature of your work?": null,
+            "How would you describe your tasks and responsibilities?": "Working with boiler/furnaces\nWorking with ammunitions/explosives\nExposure to chemicals or radioactive substances \nWorking with power machines\nWorking at heights or underground/underwater\nAny other risky activity\nNone of the above",
+            "Select your tasks and responsibilities": null,
+            "Sub options": null
+        },
+        {
+            "STP (no follow up questions)": "No",
+            "Select your industry": "Power",
+            "Select your field of work": null,
+            "What is the nature of your work?": null,
+            "How would you describe your tasks and responsibilities?": "Working with boiler/furnaces\nWorking with ammunitions/explosives\nExposure to chemicals or radioactive substances \nWorking with power machines\nWorking at heights or underground/underwater\nAny other risky activity\nNone of the above",
+            "Select your tasks and responsibilities": null,
+            "Sub options": null
+        },
+        {
+            "STP (no follow up questions)": "No",
+            "Select your industry": "Public services",
+            "Select your field of work": "Ambulance service\nFire service\nLegal\nPolice force\nPrison service",
+            "What is the nature of your work?": "If Police force\n\nArmed officer       \nUnarmed officer - No Personal Security        \nPersonal security        \nFlying squad officer\n\nIf fire service\n\nFireman\nFire engine driver\nVery special duties?\nOthers",
+            "How would you describe your tasks and responsibilities?": null,
+            "Select your tasks and responsibilities": null,
+            "Sub options": null
+        },
+        {
+            "STP (no follow up questions)": "No",
+            "Select your industry": "Railways",
+            "Select your field of work": null,
+            "What is the nature of your work?": null,
+            "How would you describe your tasks and responsibilities?": "Working with boiler/furnaces\nWorking with ammunitions/explosives\nExposure to chemicals or radioactive substances \nWorking with power machines\nWorking at heights or underground/underwater\nAny other risky activity\nNone of the above",
+            "Select your tasks and responsibilities": null,
+            "Sub options": null
+        },
+        {
+            "STP (no follow up questions)": "No",
+            "Select your industry": "Real estate",
+            "Select your field of work": null,
+            "What is the nature of your work?": null,
+            "How would you describe your tasks and responsibilities?": "Working with boiler/furnaces\nWorking with ammunitions/explosives\nExposure to chemicals or radioactive substances \nWorking with power machines\nWorking at heights or underground/underwater\nAny other risky activity\nNone of the above",
+            "Select your tasks and responsibilities": null,
+            "Sub options": null
+        },
+        {
+            "STP (no follow up questions)": "No",
+            "Select your industry": "Renewable energy",
+            "Select your field of work": null,
+            "What is the nature of your work?": null,
+            "How would you describe your tasks and responsibilities?": "Working with boiler/furnaces\nWorking with ammunitions/explosives\nExposure to chemicals or radioactive substances \nWorking with power machines\nWorking at heights or underground/underwater\nAny other risky activity\nNone of the above",
+            "Select your tasks and responsibilities": null,
+            "Sub options": null
+        },
+        {
+            "STP (no follow up questions)": "No",
+            "Select your industry": "Retail",
+            "Select your field of work": null,
+            "What is the nature of your work?": null,
+            "How would you describe your tasks and responsibilities?": "Working with boiler/furnaces\nWorking with ammunitions/explosives\nExposure to chemicals or radioactive substances \nWorking with power machines\nWorking at heights or underground/underwater\nAny other risky activity\nNone of the above",
+            "Select your tasks and responsibilities": null,
+            "Sub options": null
+        },
+        {
+            "STP (no follow up questions)": "No",
+            "Select your industry": "Roads",
+            "Select your field of work": null,
+            "What is the nature of your work?": null,
+            "How would you describe your tasks and responsibilities?": "Working with boiler/furnaces\nWorking with ammunitions/explosives\nExposure to chemicals or radioactive substances \nWorking with power machines\nWorking at heights or underground/underwater\nAny other risky activity\nNone of the above",
+            "Select your tasks and responsibilities": null,
+            "Sub options": null
+        },
+        {
+            "STP (no follow up questions)": "No",
+            "Select your industry": "Science and technology",
+            "Select your field of work": null,
+            "What is the nature of your work?": null,
+            "How would you describe your tasks and responsibilities?": "Working with boiler/furnaces\nWorking with ammunitions/explosives\nExposure to chemicals or radioactive substances \nWorking with power machines\nWorking at heights or underground/underwater\nAny other risky activity\nNone of the above",
+            "Select your tasks and responsibilities": null,
+            "Sub options": null
+        },
+        {
+            "STP (no follow up questions)": "No",
+            "Select your industry": "Services",
+            "Select your field of work": null,
+            "What is the nature of your work?": null,
+            "How would you describe your tasks and responsibilities?": "Working with boiler/furnaces\nWorking with ammunitions/explosives\nExposure to chemicals or radioactive substances \nWorking with power machines\nWorking at heights or underground/underwater\nAny other risky activity\nNone of the above",
+            "Select your tasks and responsibilities": null,
+            "Sub options": null
+        },
+        {
+            "STP (no follow up questions)": "No",
+            "Select your industry": "Steel",
+            "Select your field of work": null,
+            "What is the nature of your work?": null,
+            "How would you describe your tasks and responsibilities?": "Working with boiler/furnaces\nWorking with ammunitions/explosives\nExposure to chemicals or radioactive substances \nWorking with power machines\nWorking at heights or underground/underwater\nAny other risky activity\nNone of the above",
+            "Select your tasks and responsibilities": null,
+            "Sub options": null
+        },
+        {
+            "STP (no follow up questions)": "No",
+            "Select your industry": "Telecommunications",
+            "Select your field of work": null,
+            "What is the nature of your work?": null,
+            "How would you describe your tasks and responsibilities?": "Working with boiler/furnaces\nWorking with ammunitions/explosives\nExposure to chemicals or radioactive substances \nWorking with power machines\nWorking at heights or underground/underwater\nAny other risky activity\nNone of the above",
+            "Select your tasks and responsibilities": null,
+            "Sub options": null
+        },
+        {
+            "STP (no follow up questions)": "No",
+            "Select your industry": "Textiles",
+            "Select your field of work": null,
+            "What is the nature of your work?": null,
+            "How would you describe your tasks and responsibilities?": "Working with boiler/furnaces\nWorking with ammunitions/explosives\nExposure to chemicals or radioactive substances \nWorking with power machines\nWorking at heights or underground/underwater\nAny other risky activity\nNone of the above",
+            "Select your tasks and responsibilities": null,
+            "Sub options": null
+        },
+        {
+            "STP (no follow up questions)": "No",
+            "Select your industry": "Tourism and hospitality",
+            "Select your field of work": null,
+            "What is the nature of your work?": null,
+            "How would you describe your tasks and responsibilities?": "Working with boiler/furnaces\nWorking with ammunitions/explosives\nExposure to chemicals or radioactive substances \nWorking with power machines\nWorking at heights or underground/underwater\nAny other risky activity\nNone of the above",
+            "Select your tasks and responsibilities": null,
+            "Sub options": null
+        },
+        {
+            "STP (no follow up questions)": "No",
+            "Select your industry": "Utilities",
+            "Select your field of work": "Electrical supply\nGas supply\nWater supply",
+            "What is the nature of your work?": "Workers\nOthers",
+            "How would you describe your tasks and responsibilities?": null,
+            "Select your tasks and responsibilities": null,
+            "Sub options": null
+        }
+    ]
+}
