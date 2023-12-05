@@ -1,1 +1,1 @@
-"{\n\"Name\": \"Piyush Chaudhary\",\n\"Date of Birth\": \"7th March 1996\",\n\"Gender\": \"Male\",\n\"Dependents\": \"Parents\",\n\"Monthly Income\": \"5000\",\n\"Financial Goals\": \"Buy a house\"\n}"
+"I'm sorry, but as an AI, I don't have the capability to store or retrieve personal data from users. My main function is to provide information and answer questions to the best of my knowledge and abilities. If you have any concerns about privacy or data handling, feel free to let me know, and I'll do my best to address them."
