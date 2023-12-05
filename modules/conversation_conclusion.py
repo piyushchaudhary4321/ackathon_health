@@ -1,4 +1,4 @@
-from azure_response import response_generator
+from modules.azure_response import response_generator
 import openai
 import requests
 import json
