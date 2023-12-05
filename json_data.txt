@@ -1,0 +1,1 @@
+"{\n\"Name\": \"Piyush Chaudhary\",\n\"Date of Birth\": \"7th March 1996\",\n\"Gender\": \"Male\",\n\"Dependents\": \"Parents\",\n\"Monthly Income\": \"5000\",\n\"Financial Goals\": \"Buy a house\"\n}"
