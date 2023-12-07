@@ -1,14 +1,21 @@
 import os
 import openai
-from dotenv import load_dotenv
+import streamlit as st
+# from dotenv import load_dotenv
 
-load_dotenv()
+# load_dotenv()
 
 # Loading Environent Variables
-api_type = os.environ.get('OPENAI_API_TYPE')
-api_base = os.environ.get('OPENAI_API_BASE')
-api_key = os.environ.get('OPENAI_API_KEY')
-api_version = os.environ.get('OPENAI_API_VERSION')
+# api_type = os.environ.get('OPENAI_API_TYPE')
+# api_base = os.environ.get('OPENAI_API_BASE')
+# api_key = os.environ.get('OPENAI_API_KEY')
+# api_version = os.environ.get('OPENAI_API_VERSION')
+
+api_type = st.secrets['OPENAI_API_TYPE']
+api_base = st.secrets['OPENAI_API_BASE']
+api_key = st.secrets['OPENAI_API_KEY']
+api_version = st.secrets['OPENAI_API_VERSION']
+
 
 # Set your OpenAI API key here
 openai.api_type = api_type
