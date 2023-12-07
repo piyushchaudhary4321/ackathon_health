@@ -1,5 +1,8 @@
 # %load_ext autoreload
 # %autoreload 2
+import os
+# Changing Working Directory
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
 from modules.azure_response import response_generator
 import streamlit as st
 from modules.conversation_conclusion import conclusion_processing

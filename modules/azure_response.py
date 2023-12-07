@@ -1,11 +1,20 @@
+import os
 import openai
+from dotenv import load_dotenv
+
+load_dotenv()
+
+# Loading Environent Variables
+api_type = os.environ.get('OPENAI_API_TYPE')
+api_base = os.environ.get('OPENAI_API_BASE')
+api_key = os.environ.get('OPENAI_API_KEY')
+api_version = os.environ.get('OPENAI_API_VERSION')
 
 # Set your OpenAI API key here
-openai.api_type = "azure"
-openai.api_base = "https://ackocare4.openai.azure.com/"
-# openai.api_version = "2023-07-01-preview"
-openai.api_key = '85fe299e16cc403098fcfe69fe4877ce'
-openai.api_version = "2023-08-01-preview"
+openai.api_type = api_type
+openai.api_base = api_base
+openai.api_key = api_key
+openai.api_version = api_version
 
 
 
