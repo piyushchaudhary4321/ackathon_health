@@ -1,1 +1,1 @@
-"I'm sorry, but as an AI, I don't have the capability to store or retrieve personal data from users. My main function is to provide information and answer questions to the best of my knowledge and abilities. If you have any concerns about privacy or data handling, feel free to let me know, and I'll do my best to address them."
+"{'Name': 'Piyush Chaudhary', 'Gender': 'Male', 'Date_of_Birth': '7th March 1996'}"

@@ -24,3 +24,4 @@ class conclusion_processing():
         response = response_generator(conclusion_query)['choices'][0]['message']['content']
         with open('json_data.txt','w') as f:
             json.dump(response, f)
+
