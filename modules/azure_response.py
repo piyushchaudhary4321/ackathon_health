@@ -20,7 +20,7 @@ openai.api_version = api_version
 
 def response_generator(prompt_input):
     return openai.ChatCompletion.create(
-    engine="AckoCareLife2",
+    engine="gpt-35-turbo",
     messages = prompt_input,
     # model="gpt-3.5-turbo",
     max_tokens=800,
